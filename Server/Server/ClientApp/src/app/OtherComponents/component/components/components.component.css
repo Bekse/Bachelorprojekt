@@ -1,0 +1,54 @@
+.seach-filter-space{
+  margin:20px;
+}
+.search-input-position {
+  text-align: center;
+
+}
+.search-position {
+  width: 13%;
+  
+}
+
+.button-space {
+  margin-right: 5px;
+  }
+
+
+.btnReserve{
+  margin-right: 5px;
+  background-color: rgb(16, 187, 16);
+  color: #fff;
+
+}
+ /*Kilder: https://stackoverflow.com/questions/47588263/resize-images-with-angular-2 */
+.image-view{
+  max-width: 200px;
+  max-height: 200px;
+}
+.mat-header-cell.text-center { text-align: center; }
+
+/* Kilder: https://www.granneman.com/webdev/coding/css/centertables
+Denne link er blivet brugt til at ændre positionen på tabellen*/
+.example-container {
+  justify-content: center;
+
+  width: 80%;
+  margin-left:auto; 
+  margin-right:auto;
+  overflow: auto;
+}
+table{
+  width: 100%;
+
+}
+
+mat-card-title{
+  position: relative;
+  left: 17%;
+  
+}
+.filter-position{
+  margin-right: 30px;
+
+}

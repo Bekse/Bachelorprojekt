@@ -1,0 +1,54 @@
+.position{
+    margin: auto;
+    width: 30%;
+    margin-top: 5%;
+    height: 300px;
+    border: 3px solid rgb(75, 126, 236);
+    padding: 10px;
+    text-align: center;
+
+}
+.btn-design{
+    margin-right: 10px;
+    background-color: rgb(16, 187, 16);
+    color: #fff;
+}
+.backButton{
+    margin-right: 10px;;
+  }
+
+
+
+.input-width{
+    width:400px !important;
+
+
+}
+.bottom-space{
+    margin-bottom: 20px;
+
+}
+.center{
+    margin-top: 50px;
+}
+  
+  /* Kilder: https://www.granneman.com/webdev/coding/css/centertables
+  Denne link er blivet brugt til at ændre positionen på tabellen*/
+  .example-container {
+    justify-content: center;
+    margin-top: 100px;
+    width: 40%;
+    margin-left:auto; 
+    margin-right:auto;
+    overflow: auto;
+  }
+  table {
+    width: 100%;
+  }
+
+  .deleteCategoryError-position{
+    font-size: 150%;
+    color: rgb(255, 0, 0);
+    transition-duration: 5s;
+    transition-delay: 2s;
+  }

@@ -1,0 +1,60 @@
+2020-04-28T20:42:57.5019202+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T20:42:57.5187640+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T20:42:57.5192320+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T20:42:57.5193886+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T20:43:02.5161938+02:00 0HLVBKFSG2U27:00000001 [INF] Id : 1d833a8f-67ad-4e01-9866-b2fc27885f2e
+Role : Admin
+FirstName : AdminFirstname
+LastName : AdminLastname
+Email : admin@au.dk
+AuId : Admin
+StudentNumber : 20200101
+PhoneNumber : 12345678
+ requested to view Admin (7de791d5)
+2020-04-28T20:43:23.8468669+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T20:43:23.8553431+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T20:43:23.8554521+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T20:43:23.8554757+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T20:43:27.5553518+02:00 0HLVBKG45LLDJ:00000001 [INF] Id : 1d833a8f-67ad-4e01-9866-b2fc27885f2e
+Role : Admin
+FirstName : AdminFirstname
+LastName : AdminLastname
+Email : admin@au.dk
+AuId : Admin
+StudentNumber : 20200101
+PhoneNumber : 12345678
+ requested to view Admin (7de791d5)
+2020-04-28T22:36:43.2886783+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T22:36:43.2930376+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T22:36:43.2931298+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T22:36:43.2931652+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T22:38:02.6809088+02:00 0HLVBMFEU9JLC:00000002 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Hammer - 881b7979-f56c-484b-8187-727c8e137a3c (a4407142)
+2020-04-28T22:38:35.3485122+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T22:38:35.3534073+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T22:38:35.3534998+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T22:38:35.3535268+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T22:38:39.1690075+02:00 0HLVBMGFSJC4R:00000001 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Hammer - 38763201-5525-4ce4-a6b0-c49232b21971 (60e1023f)
+2020-04-28T22:41:31.7025382+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T22:41:31.7093798+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T22:41:31.7094972+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T22:41:31.7095340+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T22:44:13.7370917+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T22:44:13.7523283+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T22:44:13.7524328+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T22:44:13.7524617+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T23:03:40.0257154+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T23:03:40.0305421+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T23:03:40.0306560+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T23:03:40.0306882+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T23:04:54.4500587+02:00 0HLVBMUHKSP3E:00000002 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hammer - 881b7979-f56c-484b-8187-727c8e137a3c (c1af3333)
+2020-04-28T23:44:50.9925641+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T23:44:50.9977170+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T23:44:50.9978977+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T23:44:50.9979931+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T23:46:38.4152886+02:00 0HLVBNLOI216B:00000005 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Hammer - 0e38d466-0758-4048-8216-578ae12e4a29 (acf720f6)
+2020-04-28T23:47:16.1228937+02:00 0HLVBNLOI216B:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hammer - 38763201-5525-4ce4-a6b0-c49232b21971 (b0a4d16c)
+2020-04-28T23:54:21.0140876+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-28T23:54:21.0192060+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-28T23:54:21.0194081+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-28T23:54:21.0194403+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-28T23:54:28.0125887+02:00  [INF] Application is shutting down... (90f52c38)

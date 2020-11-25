@@ -1,0 +1,15 @@
+<div class="center-position">
+  <br>
+  <mat-card-title class="title-position">Admin User List</mat-card-title>
+  <form #form="ngForm" (submit)="searchUser(form)">
+    <button mat-raised-button class="backButtonPosition" color="primary" (click)="goToAdminPage()">Back</button>
+    <mat-form-field class="search-position">
+      <mat-label>Search users</mat-label>
+      <!-- Kilder: https://www.youtube.com/watch?v=ZhcYPXLGr_E 
+    Inspritation til at filtre søgefeltet, kommer fra dette link.
+    Når man indtaster en værdi i søgefeltet, så sker der en event, da den kan reducere søgefeltet.-->
+      <input matInput name="auId" placeholder="e.g. AuID" hint="Search" ngModel>
+    </mat-form-field>
+    <button class="search-button" mat-raised-button color="primary" type="submit">Search</button>
+  </form>
+</div>

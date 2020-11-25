@@ -1,0 +1,85 @@
+<div class="layout-position">
+  <mat-card-title>Component details</mat-card-title>
+
+
+  <!-- Kilder: https://www.w3schools.com/angular/tryit.asp?filename=try_ng_tables_even
+             https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
+    Har fået inspiration til at lave en tabel der viser detail af componenten.
+-->
+  <div class="table-position">
+    <form #form="ngForm" (submit)="detailedDataEdit(form)">
+      <table class="mat-elevation-z8">
+        <tr>
+          <td>Components available:</td>
+          <input type="number" name="count" [(ngModel)]="componentData.count" ngModel />
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td class="td-position">Component name:</td>
+          <input type="text" name="componentName" [(ngModel)]="componentData.componentName" ngModel />
+        </tr>
+        <tr>
+          <td>Category: <b>{{componentData.categoryName}}</b></td>
+          <td>
+            <mat-form-field class="category-select-position">
+              <mat-label>Change Category </mat-label>
+              <mat-select [(value)]="selected" name="categoryName" #categoryName="ngModel" [ngModel]>
+                <mat-option value="categoryValue">Select None</mat-option>
+                <mat-option *ngFor="let category of categories" [value]="category.categoryName">
+                  {{category.categoryName}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td>Location</td>
+          <input type="text" name="componentLocation" [(ngModel)]="componentData.componentLocation" ngModel />
+        </tr>
+        <tr>
+          <td>Info</td>
+          <input type="text" name="componentInfo" [(ngModel)]="componentData.componentInfo" ngModel />
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td>Link to datasheet</td>
+          <input type="text" name="datasheet" [(ngModel)]="componentData.datasheet" ngModel />
+        </tr>
+        <tr>
+          <td>Manufacturer</td>
+          <input type="text" name="manufacturer" [(ngModel)]="componentData.manufacturer" ngModel />
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td>WikiLink</td>
+          <input type="text" name="wikiLink" [(ngModel)]="componentData.wikiLink" />
+        </tr>
+        <tr>
+          <td>Serial-Number</td>
+          <input type="text" name="serialNumber" [(ngModel)]="componentData.serialNumber" />
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td>Component Status</td>
+          <input type="text" name="componentStatus" [(ngModel)]="componentData.componentStatus" />
+        </tr>
+        <tr>
+          <td>Admin comments</td>
+          <input type="text" name="adminComment" [(ngModel)]="componentData.adminComment" ngModel />
+        </tr>
+        <tr>
+          <td style="background-color: #f1f1f1;">Image</td>
+          <td>
+            <input type="text" name="imageUrl" [(ngModel)]="componentData.imageUrl" ngModel /><br>
+            <img class="image-view" [src]="componentData.imageUrl" alt="Place image title" />
+          </td>
+        </tr>
+        <div class="test"> 
+          <button mat-raised-button class="BackbuttonPositions" color="primary"
+            (click)="goToAdminComponentList()">Back</button>
+          <button mat-raised-button class="buttonDeletePositions" color="warn"
+            (click)="adminDeleteComponent(componentData.componentId)">Delete</button>
+          <button mat-raised-button class="btnReserve"
+            (click)="reserveAdminComponent(componentData.componentId, componentData.componentName)">Reserve</button>
+          <button mat-raised-button class="save-button" color="primary" type="submit">Save</button>
+        </div>
+      </table>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<mat-card-title class="title-position">Do you want to delete this loan?</mat-card-title>
+
+<br>
+<br>
+
+<b>Component name: </b> {{loanDataToBeDeleted.componentName}} <br>
+<b>Component Number: </b> {{loanDataToBeDeleted.componentNumber}}<br>
+<b>Admin comment: </b> {{loanDataToBeDeleted.adminComment}}<br>
+<b>Loan Date: </b> {{loanDataToBeDeleted.loanDate}}<br>
+<b>Return Date: </b> {{loanDataToBeDeleted.returnDate}}<br>
+
+
+<br>
+<button mat-raised-button class="button-space" (click) ="backToPreviousPage()" color="primary" >Cancel</button>  
+<button mat-raised-button class="button-space" (click) ="deleteLoan(loanDataToBeDeleted.loanId)" color="warn" >Delete</button>  
+

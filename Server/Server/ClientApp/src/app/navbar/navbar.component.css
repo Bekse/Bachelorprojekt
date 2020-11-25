@@ -1,0 +1,16 @@
+.navbar-right-side {
+    flex: 1 1 auto;
+}
+.button-space {
+    margin-right: 5px;
+    }
+
+.button-title-space {
+     margin-right: 20px;
+}
+
+.navbar-left-side {
+    float: right;
+}
+
+

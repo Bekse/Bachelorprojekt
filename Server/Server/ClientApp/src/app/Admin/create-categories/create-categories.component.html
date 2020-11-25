@@ -1,0 +1,52 @@
+<div class="position">
+  <div class="center">
+    <mat-card-title>Create a category</mat-card-title>
+    <form (ngSubmit)="postCategory(Form)" #Form="ngForm">
+      <div class="bottom-space">
+        <br />
+        <mat-form-field class="input-width">
+          <input name="categoryName" #categoryName="ngModel" type="text" placeholder="Category Name" matInput ngModel />
+          <mat-hint>Type a unique Category Name</mat-hint>
+        </mat-form-field>
+      </div>
+      <br>
+      <button mat-raised-button class="backButton" color="primary" (click)="backToAdminPage()">Back</button>
+      <button mat-raised-button class="btn-design" color="primary" type="ngSubmit">Create</button>
+    </form>
+  </div>
+</div>
+
+
+<div class="example-container mat-elevation-z8" >
+  <div class="deleteCategoryError-position">
+    <mat-error>
+      {{deleteCategoryError}}
+    </mat-error>
+  </div>  
+  <!--Kilder: https://material.angular.io/components/table/examples
+Inspiration til at lave en mat-table kommer fra dette link.-->
+  <table mat-table [dataSource]="categoriesData" class="mat-elevation-z8" >
+    
+      <ng-container matColumnDef="categoryName">
+        <th mat-header-cell *matHeaderCellDef> Categories: </th>
+        <td mat-cell *matCellDef="let element"> 
+          <input type="text" name="categoryName" [(ngModel)]="element.categoryName" ngModel />
+  
+        </td>
+      </ng-container>
+      
+
+      <ng-container matColumnDef="D/E">
+        <th mat-header-cell *matHeaderCellDef> Delete </th>
+        <td mat-cell *matCellDef="let element"> 
+          <button mat-raised-button class="button-space" (click)="deleteCategory(element.categoryId)" color="warn" >Delete</button>  
+          <button mat-raised-button class="btnReserve" (click)= "editCategory(element)" >Edit</button>  
+
+        </td>
+      </ng-container>
+    
+      <tr mat-header-row *matHeaderRowDef="categoryDisplayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: categoryDisplayedColumns;"></tr>
+      
+    </table>
+  </div>

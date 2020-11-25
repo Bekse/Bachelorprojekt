@@ -1,0 +1,163 @@
+<br>
+<div class="center-position">
+  <mat-card-title class="title-position">Admin Edit User</mat-card-title>
+  <button mat-raised-button class="backButtonPosition" color="primary" (click)="goToUserListPage()">Back</button>
+
+
+
+  <!-- Kilder: https://www.w3schools.com/angular/tryit.asp?filename=try_ng_tables_even
+             https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test
+    Har fået inspiration til at lave en tabel der viser detail af componenten.
+-->
+<div class="table-position">
+  <mat-card-title>User Data</mat-card-title>
+    <form #form="ngForm" (submit)="userDataEdit(form)" class="user-data-table-position">
+      <table class="mat-elevation-z8">
+        <tr>
+          <td>AuID:</td>
+          <input class="input-size" type="text" name="auId" [(ngModel)]="userData.auId" ngModel />
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td class="td-position">Student nr.:</td>
+          <input type="number" name="studentNumber" [(ngModel)]="userData.studentNumber" ngModel />
+        </tr>
+ 
+        
+        <tr style="background-color: #f1f1f1;">
+          <td>First name</td>
+          <input type="text" name="firstName" [(ngModel)]="userData.firstName" ngModel />
+        </tr>
+        <tr>
+          <td>Last name</td>
+          <input type="text" name="lastName" [(ngModel)]="userData.lastName" ngModel />
+        </tr>
+        <tr style="background-color: #f1f1f1;">
+          <td>Email</td>
+          <input type="text" name="email" [(ngModel)]="userData.email" ngModel />
+        </tr>
+        <tr>
+          <td>Phone number</td>
+          <input type="number" name="phoneNumber" [(ngModel)]="userData.phoneNumber" ngModel />
+        </tr>
+        <tr>
+          <td>Role <b>{{userData.role}}</b></td>
+          <mat-form-field class="role-position">
+            <mat-label>Choose a Role</mat-label>
+            <mat-select name="role"  #role="ngModel" [ngModel]>
+              <mat-option *ngFor="let role of roles" [value]="role.value" >
+                {{role.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+
+
+        <button mat-raised-button class="save-button-position" color="primary" type="submit">Save</button>
+        <button mat-raised-button class="delete-button-position" color="warn" (click)="deleteUser()">Delete</button>
+
+      </table>
+    </form>
+  </div>
+  <mat-card-title>User Reservation Data</mat-card-title>
+
+<!--Kilder: https://material.angular.io/components/table/examples
+Inspiration til at lave en mat-table kommer fra dette link.-->
+  <div class="example-container mat-elevation-z8">
+    <table mat-table [dataSource]="reservations" class="mat-elevation-z8">
+      <ng-container matColumnDef="componentName">
+        <th mat-header-cell *matHeaderCellDef> Component Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.componentName}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="componentNo">
+        <th mat-header-cell *matHeaderCellDef> Component No. </th>
+        <td mat-cell *matCellDef="let element"> {{element.componentNumber}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="adminComment">
+        <th mat-header-cell *matHeaderCellDef> Admin comment </th>
+        <td mat-cell *matCellDef="let element">{{element.adminComment}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="reservedDate">
+        <th mat-header-cell *matHeaderCellDef> Reserved date </th>
+        <td mat-cell *matCellDef="let element"> {{element.reservationDate}}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef> Delete </th>
+        <td mat-cell *matCellDef="let element">
+          <button mat-raised-button class="button-space" (click)="deleteReservationData(element.reservationId)"
+            color="warn">Delete</button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+
+  </div>
+
+  <mat-card-title>Edit User Loans</mat-card-title>
+
+  <div class="example-container mat-elevation-z8">
+
+    <table mat-table [dataSource]="editUserLoans" class="mat-elevation-z8">
+      <ng-container matColumnDef="componentName">
+        <th mat-header-cell *matHeaderCellDef> Component Name </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" name="componentName" [(ngModel)]="element.componentName" ngModel /> </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="componentNo">
+        <th mat-header-cell *matHeaderCellDef> Component No. </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" name="componentNumber" [(ngModel)]="element.componentNumber" ngModel />
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="adminComment">
+        <th mat-header-cell *matHeaderCellDef> Admin comment </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" name="adminComment" [(ngModel)]="element.adminComment" ngModel />
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="loanDate">
+        <th mat-header-cell *matHeaderCellDef> Loan Date </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" name="loanDate" [(ngModel)]="element.loanDate" ngModel />
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="returnDate">
+        <th mat-header-cell *matHeaderCellDef> Return date </th>
+        <td mat-cell *matCellDef="let element">
+          <input type="text" name="returnData" [(ngModel)]="element.returnDate" ngModel />
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef> Delete / Save </th>
+        <td mat-cell *matCellDef="let element">
+          <button mat-raised-button class="button-space" (click)="deleteLoan(element.loanId)"
+            color="warn">Delete</button>
+          <button mat-raised-button class="button-space" (click)="saveLoanData(element)" color="primary">Save</button>
+
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="loanDisplayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: loanDisplayedColumns;"></tr>
+
+    </table>
+
+
+  </div>
+
+</div>

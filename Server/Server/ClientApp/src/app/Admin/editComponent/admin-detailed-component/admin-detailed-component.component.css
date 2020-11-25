@@ -1,0 +1,49 @@
+
+.table {
+  width: 800px;
+}
+
+.td-position {
+  width: 200px;
+}
+.image-view {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+mat-card-title{
+  position: relative;
+  left: 5%;
+  top: 50px;
+}
+.layout-position{
+  margin-left: 400px;
+  
+}
+.table-position{
+  margin-top: 110px;
+}
+.save-button{
+  left: 450px;
+}
+
+.BackbuttonPositions {
+  left: 20px;
+}
+.buttonDeletePositions {
+  left: 120px;
+}
+
+.btnReserve {
+  background-color: rgb(16, 187, 16);
+  color: #fff;
+  left: 350px;
+
+}
+.test button{
+
+  display: inline-block;
+}
+.test{
+  width:300px;
+}

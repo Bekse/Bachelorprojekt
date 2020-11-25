@@ -1,0 +1,129 @@
+<div class ="position">
+    <mat-card-title >Create a user</mat-card-title>
+    <div class="center">
+        <form (ngSubmit)="postComponent(Form)" #Form="ngForm">
+          <div class="bottom-space">
+            <br />
+            <mat-form-field class="input-width">
+              <input
+                name="auId"
+                #auId="ngModel"
+                type="text"
+                placeholder="AuID"
+                matInput
+                ngModel
+              />
+              <mat-hint>Type a unique auID</mat-hint>
+            </mat-form-field>
+          </div>
+          <div class="bottom-space">
+            <mat-form-field class="input-width">
+              <input
+                matInput
+                type="number"
+                name="studentNumber"
+                required
+                value=" "
+                #studentNumber="ngModel"
+                placeholder="Student Nr."
+                ngModel 
+    
+              />
+              <mat-hint>Type a unique student nr.</mat-hint>
+            </mat-form-field>
+          </div>
+          <div class="bottom-space"> 
+            <mat-form-field class="input-width">
+              <input
+                matInput
+                type="text"
+                name="firstName"
+                required
+                value=" "
+                #firstName="ngModel"
+                placeholder="First Name"
+                ngModel
+    
+              />
+              <mat-hint>Type a unique first name</mat-hint>
+    
+            </mat-form-field>
+          </div>
+          <div class="bottom-space">
+            <mat-form-field class="input-width">
+              <input
+                matInput
+                type="componentStatus"
+                name="lastName"
+                required
+                value=" "
+                #lastName="ngModel"
+                placeholder="Last name"
+                ngModel
+    
+              />
+              <mat-hint>Type a unique Last name</mat-hint>
+            </mat-form-field>
+          </div>
+          <div class="bottom-space">
+            <mat-form-field class="input-width">
+              <input
+                matInput
+                type="text"
+                name="email"
+                required
+                value=" "
+                #email="ngModel"
+                placeholder="Email"
+                ngModel
+              />
+              <mat-hint>Type a unique email</mat-hint>
+            </mat-form-field>
+          </div>
+          <div class="phoneNumber-bottom-space">
+            <mat-form-field class="input-width">
+              <input
+                matInput
+                type="number"
+                name="phoneNumber"
+                required
+                value=" "
+                #phoneNumber="ngModel"
+                placeholder="Phone nr."
+                ngModel
+    
+              />
+              <mat-hint>Type a unique Phone nr.</mat-hint>
+    
+            </mat-form-field>
+          </div>
+          <div class="bottom-space">
+            <mat-form-field class="role-position">
+                <mat-label>Choose a Role</mat-label>
+                <mat-select name="role"  #role="ngModel" [ngModel] required>
+                  <mat-option *ngFor="let role of roles" [value]="role.value" >
+                    {{role.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+   
+          </div>
+
+ 
+          <br>
+            <button mat-raised-button class="backButton" color="primary" (click)="backToAdminPage()">Back</button>
+    
+            <button mat-raised-button class="btn-design" color="primary" type="ngSubmit">Create</button>
+          <br>
+          <br>
+    
+        </form>
+      </div>
+    
+    <br>
+    
+    
+    
+    
+    </div>
+    

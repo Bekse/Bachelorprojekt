@@ -1,0 +1,13 @@
+<mat-card-title class="title-position">Search for components</mat-card-title>
+
+<h2><b>Your reservation succeeded.</b></h2>
+
+<b>Component name: </b> {{componentData.componentName}} <br>
+<b>Component Info: </b> {{componentData.componentInfo}}<br>
+<b>Component Number: </b> {{componentData.componentNumber}}<br>
+<b>Reserved for: </b> {{componentData.reservedTo}}<br>
+
+
+<p>Pleace pick up the component within 5 days</p>
+<br>
+<button mat-raised-button class="btn button-space" (click) ="backToComponent()" color="primary" >Back</button>  

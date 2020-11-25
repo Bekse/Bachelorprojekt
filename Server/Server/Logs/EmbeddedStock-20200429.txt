@@ -1,0 +1,1665 @@
+2020-04-29T00:02:08.9875195+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T00:02:08.9940411+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:02:08.9942541+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:02:08.9943055+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:02:14.5624824+02:00  [INF] Application is shutting down... (90f52c38)
+2020-04-29T00:02:49.3189195+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:02:49.3297207+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:02:49.3298389+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:02:56.3592002+02:00  [ERR] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+ (ad9dc99d)
+2020-04-29T00:08:44.8514800+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:08:44.8604974+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:08:44.8606026+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:08:50.8914065+02:00  [ERR] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+ (ad9dc99d)
+2020-04-29T00:08:58.5745106+02:00  [ERR] ERROR in app/app.module.ts:9:31 - error TS2307: Cannot find module './home/home.component'.
+
+9 import { HomeComponent } from './home/home.component';
+                                ~~~~~~~~~~~~~~~~~~~~~~~
+app/app.module.ts:10:34 - error TS2307: Cannot find module './counter/counter.component'.
+
+10 import { CounterComponent } from './counter/counter.component';
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app/app.module.ts:11:36 - error TS2307: Cannot find module './fetch-data/fetch-data.component'.
+
+11 import { FetchDataComponent } from './fetch-data/fetch-data.component';
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ (cd13ee8a)
+2020-04-29T00:12:48.1828998+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:12:48.1912973+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:12:48.1914138+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:12:54.0661262+02:00  [ERR] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+ (ad9dc99d)
+2020-04-29T00:27:23.5249627+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:27:23.5385127+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:27:23.5387633+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:27:30.9528059+02:00  [ERR] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+ (ad9dc99d)
+2020-04-29T00:27:39.2650769+02:00  [ERR] ERROR in src/app/OtherComponents/component/components/reservation-dialog/reservation-dialog.component.ts:3:47 - error TS2307: Cannot find module '@angular/material/dialog'.
+
+3 import { MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/OtherComponents/component/components/components.component.ts:6:43 - error TS2307: Cannot find module '@angular/material/dialog'.
+
+6 import { MatDialog, MatDialogConfig} from "@angular/material/dialog";
+                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/OtherComponents/component/components/components.component.ts:7:34 - error TS2307: Cannot find module '@angular/material/table'.
+
+7 import {MatTableDataSource} from '@angular/material/table';
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/Admin/admin-components-list/admin-components-list.component.ts:4:34 - error TS2307: Cannot find module '@angular/material/table'.
+
+4 import {MatTableDataSource} from '@angular/material/table';
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/Admin/admin-detailed-component/admin-reservation-dialog/admin-reservation-dialog.component.ts:3:47 - error TS2307: Cannot find module '@angular/material/dialog'.
+
+3 import { MatDialogRef, MAT_DIALOG_DATA } from "@angular/material/dialog";
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/Admin/admin-detailed-component/admin-detailed-component.component.ts:5:44 - error TS2307: Cannot find module '@angular/material/dialog'.
+
+5 import { MatDialog, MatDialogConfig } from "@angular/material/dialog";
+ (ab80285e)
+2020-04-29T00:27:39.2661906+02:00  [ERR]                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:17:31 - error TS2307: Cannot find module '@angular/material/card'.
+
+17 import { MatCardModule } from "@angular/material/card";
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:18:31 - error TS2307: Cannot find module '@angular/material/icon'.
+
+18 import { MatIconModule } from "@angular/material/icon";
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:19:33 - error TS2307: Cannot find module '@angular/material/button/'.
+
+19 import { MatButtonModule } from "@angular/material/button/";
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:20:34 - error TS2307: Cannot find module '@angular/material/toolbar'.
+
+20 import { MatToolbarModule } from "@angular/material/toolbar";
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:21:32 - error TS2307: Cannot find module '@angular/material/input'.
+
+21 import { MatInputModule } from "@angular/material/input";
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:22:36 - error TS2307: Cannot find module '@angular/material/form-field'.
+
+22 import { MatFormFieldModule } from "@angular/material/form-field";
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:23:35 - error TS2307: Cannot find module '@angular/material/checkbox'.
+
+23 import { MatCheckboxModule } from "@angular/material/checkbox";
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:24:36 - error TS2307: Cannot find module '@angular/material/paginator'.
+
+24 import { MatPaginatorModule } from "@angular/material/paginator";
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:25:32 - error TS2307: Cannot find module '@angular/material/table'.
+
+25 import { MatTableModule } from "@angular/material/table";
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:26:33 - error TS2307: Cannot find module '@angular/material/select'.
+
+26 import { MatSelectModule } from "@angular/material/select";
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:29:31 - error TS2307: Cannot find module '@angular/material/menu'.
+
+29 import { MatMenuModule } from "@angular/material/menu";
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/app.module.ts:37:33 - error TS2307: Cannot find module '@angular/material/dialog'.
+
+37 import { MatDialogModule } from "@angular/material/dialog";
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ERROR in ./src/styles.css (./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./src/styles.css)
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+Error: Failed to find '@angular/material/prebuilt-themes/indigo-pink.css'
+  in [
+    C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\ClientApp\src
+  ]
+    at C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\ClientApp\node_modules\postcss-import\lib\resolve-id.js:35:13
+    at async Promise.all (index 0)
+ERROR in src/app/app.module.ts(74,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/input relative to [object Object]..
+src/app/app.module.ts(75,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/button/ relative to [object Object]..
+src/app/app.module.ts(76,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/toolbar relative to [object Object]..
+src/app/app.module.ts(77,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/form-field relative to [object Object]..
+src/app/app.module.ts(78,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/checkbox relative to [object Object]..
+src/app/app.module.ts(79,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/paginator relative to [object Object]..
+src/app/app.module.ts(80,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/table relative to [object Object]..
+src/app/app.module.ts(81,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/select relative to [object Object]..
+src/app/app.module.ts(82,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/card relative to [object Object]..
+src/app/app.module.ts(84,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/icon relative to [object Object]..
+src/app/app.module.ts(85,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/menu relative to [object Object]..
+src/app/app.module.ts(86,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/dialog relative to [object Object]..
+Can't resolve all parameters for AdminDetailedComponentComponent in C:/Users/Bekir Karaca/Desktop/BAC/Server/Server/ClientApp/src/app/Admin/admin-detailed-component/admin-detailed-component.component.ts: ([object Object], [object Object], [object Object], ?).
+Can't resolve all parameters for ComponentsComponent in C:/Users/Bekir Karaca/Desktop/BAC/Server/Server/ClientApp/src/app/OtherComponents/component/components/components.component.ts: ([object Object], [object Object], ?).
+src/app/OtherComponents/component/components/reservation-dialog/reservation-dialog.component.ts(16,13): Error during template compile of 'ReservationDialogComponent'
+  Could not resolve @angular/material/dialog relative to [object Object]..
+Can't resolve all parameters for ReservationDialogComponent in C:/Users/Bekir Karaca/Desktop/BAC/Server/Server/ClientApp/src/app/OtherComponents/component/components/reservation-dialog/reservation-dialog.component.ts: ([object Object], [object Object], ?, ?).
+src/app/Admin/admin-detailed-component/admin-reservation-dialog/admin-reservation-dialog.component.ts(16,13): Error during template compile of 'AdminReservationDialogComponent'
+  Could not resolve @angular/material/dialog relative to [object Object]..
+Can't resolve all parameters for AdminReservationDialogComponent in C:/Users/Bekir Karaca/Desktop/BAC/Server/Server/ClientApp/src/app/Admin/admin-detailed-component/admin-reservation-dialog/admin-reservation-dialog.component.ts: ([object Object], [object Object], ?, ?).
+src/app/app.module.ts(74,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/input relative to [object Object]..
+src/app/app.module.ts(75,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/button/ relative to [object Object]..
+src/app/app.module.ts(76,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/toolbar relative to [object Object]..
+src/app/app.module.ts(77,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/form-field relative to [object Object]..
+src/app/app.module.ts(78,5): Error during template compile of 'AppModule'
+ (77e3cda4)
+2020-04-29T00:27:39.2667567+02:00  [ERR]   Could not resolve @angular/material/checkbox relative to [object Object]..
+src/app/app.module.ts(79,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/paginator relative to [object Object]..
+src/app/app.module.ts(80,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/table relative to [object Object]..
+src/app/app.module.ts(81,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/select relative to [object Object]..
+src/app/app.module.ts(82,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/card relative to [object Object]..
+src/app/app.module.ts(84,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/icon relative to [object Object]..
+src/app/app.module.ts(85,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/menu relative to [object Object]..
+src/app/app.module.ts(86,5): Error during template compile of 'AppModule'
+  Could not resolve @angular/material/dialog relative to [object Object]..
+'mat-card-title' is not a known element:
+1. If 'mat-card-title' is an Angular component, then verify that it is part of this module.
+2. If 'mat-card-title' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+  <form (ngSubmit)="onUser(Form)" #Form="ngForm">
+    <div>
+      [ERROR ->]<mat-card-title>Please Register</mat-card-title>
+      <br />
+      <br />
+")
+'mat-hint' is not a known element:
+1. If 'mat-hint' is an Angular component, then verify that it is part of this module.
+2. If 'mat-hint' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+          size="4"
+        />
+        [ERROR ->]<mat-hint>Type a unique AuId</mat-hint>
+        <mat-error *ngIf="auid.invalid">{ getErrorMessage()")
+'mat-error' is not a known element:
+1. If 'mat-error' is an Angular component, then verify that it is part of this module.
+2. If 'mat-error' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+        />
+        <mat-hint>Type a unique AuId</mat-hint>
+        [ERROR ->]<mat-error *ngIf="auid.invalid">{ getErrorMessage() }</mat-error>
+      </mat-form-field>
+    </d")
+'mat-form-field' is not a known element:
+1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+      <br />
+      <br />
+      [ERROR ->]<mat-form-field class="input-width">
+        <input
+          name="AuId"
+")
+'mat-hint' is not a known element:
+1. If 'mat-hint' is an Angular component, then verify that it is part of this module.
+2. If 'mat-hint' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+          ngModel
+        />
+        [ERROR ->]<mat-hint>Type a unique Password</mat-hint>
+        <mat-error *ngIf="password.invalid">{ getErrorM")
+'mat-error' is not a known element:
+1. If 'mat-error' is an Angular component, then verify that it is part of this module.
+2. If 'mat-error' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+        />
+        <mat-hint>Type a unique Password</mat-hint>
+        [ERROR ->]<mat-error *ngIf="password.invalid">{ getErrorMessage() }</mat-error>
+      </mat-form-field>
+   ")
+'mat-form-field' is not a known element:
+1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+
+    <div>
+      [ERROR ->]<mat-form-field class="input-width">
+        <input
+          matInput
+")
+'mat-hint' is not a known element:
+1. If 'mat-hint' is an Angular component, then verify that it is part of this module.
+2. If 'mat-hint' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+          ngModel
+        />
+        [ERROR ->]<mat-hint>Type a unique Student number</mat-hint>
+        <mat-error *ngIf="student_number.invalid">")
+'mat-error' is not a known element:
+1. If 'mat-error' is an Angular component, then verify that it is part of this module.
+2. If 'mat-error' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+        />
+        <mat-hint>Type a unique Student number</mat-hint>
+        [ERROR ->]<mat-error *ngIf="student_number.invalid">{
+          getErrorMessage()
+        }</mat-error>
+")
+'mat-form-field' is not a known element:
+1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+    </div>
+    <div>
+      [ERROR ->]<mat-form-field class="input-width">
+        <input
+          matInput
+")
+'mat-hint' is not a known element:
+1. If 'mat-hint' is an Angular component, then verify that it is part of this module.
+2. If 'mat-hint' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+          ngModel
+        />
+        [ERROR ->]<mat-hint>Type a unique Email</mat-hint>
+        <mat-error *ngIf="email.invalid">{ getErrorMessage")
+'mat-error' is not a known element:
+1. If 'mat-error' is an Angular component, then verify that it is part of this module.
+2. If 'mat-error' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+        />
+        <mat-hint>Type a unique Email</mat-hint>
+        [ERROR ->]<mat-error *ngIf="email.invalid">{ getErrorMessage() }</mat-error>
+      </mat-form-field>
+    </")
+'mat-form-field' is not a known element:
+1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+    </div>
+    <div>
+      [ERROR ->]<mat-form-field class="input-width">
+        <input
+          matInput
+")
+'mat-hint' is not a known element:
+1. If 'mat-hint' is an Angular component, then verify that it is part of this module.
+2. If 'mat-hint' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+          ngModel
+        />
+        [ERROR ->]<mat-hint>Type a unique Phone</mat-hint>
+        <mat-error *ngIf="phone.invalid">{ getErrorMessage")
+'mat-error' is not a known element:
+1. If 'mat-error' is an Angular component, then verify that it is part of this module.
+2. If 'mat-error' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+        />
+        <mat-hint>Type a unique Phone</mat-hint>
+        [ERROR ->]<mat-error *ngIf="phone.invalid">{ getErrorMessage() }</mat-error>
+      </mat-form-field>
+    </")
+'mat-form-field' is not a known element:
+1. If 'mat-form-field' is an Angular component, then verify that it is part of this module.
+2. If 'mat-form-field' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+    </div>
+    <div>
+      [ERROR ->]<mat-form-field class="input-width">
+        <input
+          matInput
+")
+'mat-hint' is not a known element:
+1. If 'mat-hint' is an Angular component, then verify that it is part of this module.
+2. If 'mat-hint' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+ (a6a09ee7)
+2020-04-29T00:30:27.4564206+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:30:27.4665735+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:30:27.4666795+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:30:30.3842436+02:00  [ERR] An unhandled exception occurred: Could not find module "@angular-devkit/build-angular" from "C:\\Users\\Bekir Karaca\\Desktop\\BAC\\Server\\Server\\ClientApp".
+ (10c36304)
+2020-04-29T00:30:30.3869445+02:00  [ERR] See "C:\Users\BEKIRK~1\AppData\Local\Temp\ng-wYGSVg\angular-errors.log" for further details.
+ (a4c65ef8)
+2020-04-29T00:30:30.4148909+02:00  [ERR] npm ERR! code ELIFECYCLE
+ (76992f4c)
+2020-04-29T00:30:30.4163092+02:00  [ERR] npm ERR! syscall spawn
+npm ERR! file C:\WINDOWS\system32\cmd.exe
+npm ERR! errno ENOENT
+npm ERR! client-app@0.0.0 start: `ng serve "--port" "50220"`
+ (c92b3b8f)
+2020-04-29T00:30:30.4394613+02:00  [ERR] npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the client-app@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+ (354524a8)
+2020-04-29T00:30:30.5516412+02:00 8000000b-0003-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Could not find module "@angular-devkit/build-angular" from "C:\\Users\\Bekir Karaca\\Desktop\\BAC\\Server\\Server\\ClientApp".
+
+See "C:\Users\BEKIRK~1\AppData\Local\Temp\ng-wYGSVg\angular-errors.log" for further details.
+
+npm ERR! code ELIFECYCLE
+
+npm ERR! syscall spawn
+npm ERR! file C:\WINDOWS\system32\cmd.exe
+npm ERR! errno ENOENT
+npm ERR! client-app@0.0.0 start: `ng serve "--port" "50220"`
+
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the client-app@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Could not find module "@angular-devkit/build-angular" from "C:\\Users\\Bekir Karaca\\Desktop\\BAC\\Server\\Server\\ClientApp".
+
+See "C:\Users\BEKIRK~1\AppData\Local\Temp\ng-wYGSVg\angular-errors.log" for further details.
+
+npm ERR! code ELIFECYCLE
+
+npm ERR! syscall spawn
+npm ERR! file C:\WINDOWS\system32\cmd.exe
+npm ERR! errno ENOENT
+npm ERR! client-app@0.0.0 start: `ng serve "--port" "50220"`
+
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the client-app@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Could not find module "@angular-devkit/build-angular" from "C:\\Users\\Bekir Karaca\\Desktop\\BAC\\Server\\Server\\ClientApp".
+
+See "C:\Users\BEKIRK~1\AppData\Local\Temp\ng-wYGSVg\angular-errors.log" for further details.
+
+npm ERR! code ELIFECYCLE
+
+npm ERR! syscall spawn
+npm ERR! file C:\WINDOWS\system32\cmd.exe
+npm ERR! errno ENOENT
+npm ERR! client-app@0.0.0 start: `ng serve "--port" "50220"`
+
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the client-app@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:34:44.6913303+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:34:44.6996376+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:34:44.6997417+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:35:03.0476714+02:00  [ERR] Compiling @angular/core : es2015 as esm2015
+
+ (ba62f562)
+2020-04-29T00:35:04.5999966+02:00  [ERR] Compiling @angular/common : es2015 as esm2015
+
+ (27819437)
+2020-04-29T00:35:06.6499469+02:00  [ERR] Compiling @angular/platform-browser : es2015 as esm2015
+
+ (fad44146)
+2020-04-29T00:35:10.0982975+02:00  [ERR] Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+
+ (70dc66c6)
+2020-04-29T00:35:12.0979394+02:00  [ERR] Compiling @angular/forms : es2015 as esm2015
+
+ (febcaefe)
+2020-04-29T00:35:13.0391522+02:00  [ERR] Compiling @angular/animations : es2015 as esm2015
+
+ (bc107d84)
+2020-04-29T00:35:14.2234560+02:00  [ERR] Compiling @angular/animations/browser : es2015 as esm2015
+
+ (852f5380)
+2020-04-29T00:35:16.6987177+02:00  [ERR] Compiling @angular/platform-browser/animations : es2015 as esm2015
+
+ (a895dfe9)
+2020-04-29T00:35:19.0850760+02:00  [ERR] Compiling @angular/common/http : es2015 as esm2015
+
+ (e995982f)
+2020-04-29T00:35:19.9093587+02:00  [ERR] Compiling @angular/cdk/keycodes : es2015 as esm2015
+
+ (a265e7f0)
+2020-04-29T00:35:21.3237344+02:00  [ERR] Compiling @angular/cdk/platform : es2015 as esm2015
+
+ (d85c95aa)
+2020-04-29T00:35:22.9257451+02:00  [ERR] Compiling @angular/cdk/observers : es2015 as esm2015
+
+ (3aafb012)
+2020-04-29T00:35:24.0423794+02:00  [ERR] Compiling @angular/cdk/a11y : es2015 as esm2015
+
+ (834f2282)
+2020-04-29T00:35:25.5852853+02:00  [ERR] Compiling @angular/cdk/bidi : es2015 as esm2015
+
+ (0b1de3b9)
+2020-04-29T00:35:26.7802004+02:00  [ERR] Compiling @angular/material/core : es2015 as esm2015
+
+ (11986cbb)
+2020-04-29T00:35:30.5239666+02:00  [ERR] Compiling @angular/material/card : es2015 as esm2015
+
+ (90457f4d)
+2020-04-29T00:35:33.9965653+02:00  [ERR] Compiling @angular/material/icon : es2015 as esm2015
+
+ (9c13f6b8)
+2020-04-29T00:35:37.2545421+02:00  [ERR] Compiling @angular/material/button : es2015 as esm2015
+
+ (04548aa5)
+2020-04-29T00:35:41.8433771+02:00  [ERR] Compiling @angular/material/toolbar : es2015 as esm2015
+
+ (de0381a8)
+2020-04-29T00:35:43.6707291+02:00  [ERR] Compiling @angular/cdk/text-field : es2015 as esm2015
+
+ (e965a578)
+2020-04-29T00:35:45.2719667+02:00  [ERR] Compiling @angular/material/form-field : es2015 as esm2015
+
+ (b50f16d5)
+2020-04-29T00:35:49.0336752+02:00  [ERR] Compiling @angular/material/input : es2015 as esm2015
+
+ (6e17dabb)
+2020-04-29T00:35:53.9324770+02:00  [ERR] Compiling @angular/material/checkbox : es2015 as esm2015
+
+ (1d9cfed9)
+2020-04-29T00:35:55.3917707+02:00  [ERR] Compiling @angular/cdk/collections : es2015 as esm2015
+
+ (c76c30b8)
+2020-04-29T00:35:56.4695582+02:00  [ERR] Compiling @angular/cdk/scrolling : es2015 as esm2015
+
+ (f3747bd6)
+2020-04-29T00:35:57.8866106+02:00  [ERR] Compiling @angular/cdk/portal : es2015 as esm2015
+
+ (56118cd0)
+2020-04-29T00:35:59.8291689+02:00  [ERR] Compiling @angular/cdk/overlay : es2015 as esm2015
+
+ (52ea7e24)
+2020-04-29T00:36:01.2028466+02:00  [ERR] Compiling @angular/material/select : es2015 as esm2015
+
+ (49f231d6)
+2020-04-29T00:36:03.1085228+02:00  [ERR] Compiling @angular/cdk/layout : es2015 as esm2015
+
+ (a5f8c6f5)
+2020-04-29T00:36:05.1847283+02:00  [ERR] Compiling @angular/material/tooltip : es2015 as esm2015
+
+ (2a6a76c2)
+2020-04-29T00:36:09.2192763+02:00  [ERR] Compiling @angular/material/paginator : es2015 as esm2015
+
+ (88439cc0)
+2020-04-29T00:36:10.8855651+02:00  [ERR] Compiling @angular/cdk/table : es2015 as esm2015
+
+ (27902bc1)
+2020-04-29T00:36:12.8011711+02:00  [ERR] Compiling @angular/material/sort : es2015 as esm2015
+
+ (73584e36)
+2020-04-29T00:36:17.6768279+02:00  [ERR] Compiling @angular/material/table : es2015 as esm2015
+
+ (f136e3e6)
+2020-04-29T00:36:22.9310063+02:00  [ERR] Compiling @angular/material/menu : es2015 as esm2015
+
+ (8da6604b)
+2020-04-29T00:36:26.2133536+02:00  [ERR] Compiling @angular/material/dialog : es2015 as esm2015
+
+ (df57293e)
+2020-04-29T00:36:45.5468126+02:00 8000000e-0002-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:41:14.6583226+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:41:14.6668230+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:41:14.6669388+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:42:34.9190744+02:00 80000008-0001-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:42:51.4055736+02:00 8000000d-0003-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:42:55.1652246+02:00 80000040-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:42:56.8816481+02:00 8000000f-0003-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:42:58.4085135+02:00 8000000a-0001-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:42:58.6786312+02:00 80000042-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:42:58.9411416+02:00 80000011-0003-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T00:43:30.1200542+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:43:30.1283203+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:43:30.1284242+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:44:23.6277593+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:44:23.6378323+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:44:23.6379542+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:54:49.3771359+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T00:54:49.3862230+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T00:54:49.3863248+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T00:55:36.1163608+02:00 80000018-0003-fd00-b63f-84710c7967bb [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T00:55:36.1189780+02:00 80000018-0003-fd00-b63f-84710c7967bb [INF] Admin logged in. (0aeb8da6)
+2020-04-29T00:57:30.9112451+02:00 8000005a-0002-fd00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated their profile: Admin -  (b80c7950)
+2020-04-29T00:58:12.5294276+02:00 80000041-0003-ff00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Søm - 10604d65-1ea1-44e4-97ce-d8fb88dc17bb (d06a276d)
+2020-04-29T00:58:15.1304401+02:00 80000043-0003-ff00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Skruetrækker - 1bbfa3fb-6ac9-487d-8d14-cde65a6aba0f (a1aa202a)
+2020-04-29T00:58:16.4301782+02:00 80000012-0001-f800-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Grillkylling - 246f5c9a-67bc-481f-a27e-fc0f3d772a45 (5a94f536)
+2020-04-29T00:58:17.7949279+02:00 80000014-0001-f800-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Skruetrækker - 2f969bae-b3ac-4935-9e76-24dda2302db4 (18492fc0)
+2020-04-29T00:58:19.0621534+02:00 80000038-0000-fb00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hammer - 4d2d7c13-e32a-4841-9524-e35d45fabec0 (76823795)
+2020-04-29T00:58:20.2056764+02:00 8000001c-0001-f800-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hammer - 5e58e4aa-4f3b-4595-9218-a7c0989c4536 (b1087295)
+2020-04-29T00:58:21.4310142+02:00 8000003c-0000-fb00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Faxe kondi booster - 75428c8a-5a48-470f-ac95-86e4ee73ebd5 (a9ba4246)
+2020-04-29T00:58:24.2414392+02:00 80000020-0001-f800-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Grillkylling - 86cb0bc8-1913-478d-a3bd-b0db8ab80e72 (580e841b)
+2020-04-29T00:58:25.4166205+02:00 80000049-0003-ff00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Shampoo - 87593823-7e0d-45cc-b5f8-5c9cc5eb7633 (4e21d810)
+2020-04-29T00:58:26.5000833+02:00 80000024-0001-f800-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Grillkylling - a129acd9-4378-448b-8b1a-8888016bdd03 (ffc9211a)
+2020-04-29T00:58:29.5673923+02:00 80000040-0000-fb00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Søm - a3fdf05c-0e4c-4043-8ffe-c083ced72265 (195e41f0)
+2020-04-29T00:58:32.1548971+02:00 80000066-0002-fd00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Faxe kondi booster - a4fa0285-a0ad-47b1-9edd-f9e5a9c85d52 (863eed71)
+2020-04-29T00:58:33.4518162+02:00 80000044-0000-fb00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Søm - c25f04bc-ea0a-4980-8ee4-faea1e8a2d8e (680164ba)
+2020-04-29T00:58:34.9454968+02:00 8000006c-0002-fd00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Faxe kondi booster - c26d0757-707b-49e3-8e9d-a955a8cf4e85 (f1e6d68a)
+2020-04-29T00:59:30.7879852+02:00 8000004a-0000-fb00-b63f-84710c7967bb [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Johnny - 6921e9a2-7948-4034-81da-ca886e2e7b03 (76bb20ee)
+2020-04-29T01:05:51.2600647+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:05:51.2984361+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T01:05:51.2985718+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:07:06.1723372+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:07:06.1819743+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T01:07:06.1820856+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:08:26.6262510+02:00 80000078-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T01:08:29.5704983+02:00 8000007a-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T01:09:01.5464611+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:09:01.5623945+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T01:09:01.5625085+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:18:13.9012198+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:18:13.9103859+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T01:18:13.9104827+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:18:55.1253708+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:18:55.1336071+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:18:55.1336899+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:19:08.2839126+02:00 80000004-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-04-29T01:19:08.2902635+02:00 80000004-0000-fb00-b63f-84710c7967bb [ERR] An exception was thrown attempting to execute the error handler. (e55ade05)
+System.InvalidOperationException: The SPA default page middleware could not return the default page '/index.html' because it was not found, and no other middleware handled the request.
+
+   at Microsoft.AspNetCore.SpaServices.SpaDefaultPageMiddleware.<>c__DisplayClass0_0.<Attach>b__1(HttpContext context, Func`1 next)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_1.<Use>b__1(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_2.<Use>b__2()
+   at Microsoft.AspNetCore.SpaServices.SpaDefaultPageMiddleware.<>c__DisplayClass0_0.<Attach>b__0(HttpContext context, Func`1 next)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_1.<Use>b__1(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2020-04-29T01:19:08.2996535+02:00 80000004-0000-fb00-b63f-84710c7967bb [ERR] Connection ID ""18086456105130524675"", Request ID ""80000004-0000-fb00-b63f-84710c7967bb"": An unhandled exception was thrown by the application. (bf316047)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2020-04-29T01:19:09.0979708+02:00 80000002-0000-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-04-29T01:19:09.1001175+02:00 80000002-0000-fa00-b63f-84710c7967bb [ERR] An exception was thrown attempting to execute the error handler. (e55ade05)
+System.InvalidOperationException: The SPA default page middleware could not return the default page '/index.html' because it was not found, and no other middleware handled the request.
+
+   at Microsoft.AspNetCore.SpaServices.SpaDefaultPageMiddleware.<>c__DisplayClass0_0.<Attach>b__1(HttpContext context, Func`1 next)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_1.<Use>b__1(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_2.<Use>b__2()
+   at Microsoft.AspNetCore.SpaServices.SpaDefaultPageMiddleware.<>c__DisplayClass0_0.<Attach>b__0(HttpContext context, Func`1 next)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_1.<Use>b__1(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2020-04-29T01:19:09.1012668+02:00 80000002-0000-fa00-b63f-84710c7967bb [ERR] Connection ID ""18014398511092596737"", Request ID ""80000002-0000-fa00-b63f-84710c7967bb"": An unhandled exception was thrown by the application. (bf316047)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2020-04-29T01:19:24.0057955+02:00 8000000f-0001-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-04-29T01:19:24.0081121+02:00 8000000f-0001-ff00-b63f-84710c7967bb [ERR] An exception was thrown attempting to execute the error handler. (e55ade05)
+System.InvalidOperationException: The SPA default page middleware could not return the default page '/index.html' because it was not found, and no other middleware handled the request.
+
+   at Microsoft.AspNetCore.SpaServices.SpaDefaultPageMiddleware.<>c__DisplayClass0_0.<Attach>b__1(HttpContext context, Func`1 next)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_1.<Use>b__1(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_2.<Use>b__2()
+   at Microsoft.AspNetCore.SpaServices.SpaDefaultPageMiddleware.<>c__DisplayClass0_0.<Attach>b__0(HttpContext context, Func`1 next)
+   at Microsoft.AspNetCore.Builder.UseExtensions.<>c__DisplayClass0_1.<Use>b__1(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2020-04-29T01:19:24.0104451+02:00 8000000f-0001-ff00-b63f-84710c7967bb [ERR] Connection ID ""18374686485577203726"", Request ID ""8000000f-0001-ff00-b63f-84710c7967bb"": An unhandled exception was thrown by the application. (bf316047)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2020-04-29T01:19:38.2824757+02:00 8000000c-0003-ff00-b63f-84710c7967bb [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T01:19:38.2828639+02:00 8000000c-0003-ff00-b63f-84710c7967bb [INF] Admin logged in. (0aeb8da6)
+2020-04-29T01:20:53.7613718+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:20:53.7695560+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:20:53.7696595+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:21:06.4422966+02:00 80000004-0001-fb00-b63f-84710c7967bb [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T01:21:06.4455862+02:00 80000004-0001-fb00-b63f-84710c7967bb [INF] Admin logged in. (0aeb8da6)
+2020-04-29T01:22:01.7756048+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:22:01.7832790+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:22:01.7833598+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:22:51.6817581+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:22:51.6862838+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:22:51.6863766+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:22:51.6864290+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:23:59.5480968+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:23:59.5541041+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:23:59.5541947+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:23:59.5542272+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:25:47.7608882+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:25:47.7669315+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:25:47.7672180+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:25:47.7672436+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:25:57.9063966+02:00 0HLVBPDTMMSKF:0000000D [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T01:25:57.9089860+02:00 0HLVBPDTMMSKF:0000000D [INF] Admin logged in. (0aeb8da6)
+2020-04-29T01:38:32.6505573+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:38:32.6548942+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:38:32.6549755+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:38:32.6550093+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:38:47.4834777+02:00 0HLVBPL1OFA90:00000013 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T01:38:47.4854247+02:00 0HLVBPL1OFA90:00000013 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T01:40:16.0294602+02:00 0HLVBPL1OFA90:00000029 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Clerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (cb5167b3)
+2020-04-29T01:41:35.8595373+02:00 0HLVBPL1OFA90:0000004F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: au555204 - 9dccff76-9a0e-408c-b153-fc92a9dfac45 (4dcb7673)
+2020-04-29T01:42:32.4815232+02:00 0HLVBPL1OFA90:00000055 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: AuClerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (46b69e31)
+2020-04-29T01:43:48.2602337+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:43:48.2643771+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:43:48.2644678+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:43:48.2644913+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:44:12.8944779+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:44:12.8995110+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:44:12.8998543+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T01:44:12.8999023+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:44:23.0079708+02:00 0HLVBPO71VUL1:00000001 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T01:44:23.0113794+02:00 0HLVBPO71VUL1:00000001 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T01:44:31.7322309+02:00 0HLVBPO71VUL1:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: auClerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (b95a1a22)
+2020-04-29T01:44:39.8267541+02:00 0HLVBPO71VUL1:0000000B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T01:45:07.3238867+02:00 0HLVBPO71VUL1:0000000F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 15f264c7-e9a2-43de-8137-f0c605af9d02 (3ac9da14)
+2020-04-29T01:45:07.3990940+02:00 0HLVBPO71VUL1:00000011 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T01:45:27.8009781+02:00 0HLVBPO71VUL1:0000001F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T01:55:25.2104522+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T01:55:25.2177581+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T01:55:25.2178734+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T01:55:25.2178981+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T01:56:48.5124794+02:00 0HLVBPUFIFEAT:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T01:56:55.2803888+02:00 0HLVBPUFIFEAT:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T02:00:16.3757545+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T02:00:16.3800761+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T02:00:16.3801611+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T02:00:16.3801829+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T02:01:38.6610107+02:00 0HLVBQ169BHOO:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T02:02:16.6990479+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T02:02:16.7050602+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T02:02:16.7051573+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T02:02:16.7052062+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T02:02:50.5970018+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T02:02:50.6047326+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T02:02:50.6048312+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T02:02:50.6048546+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T02:28:37.6440240+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T02:28:37.6508907+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T02:28:37.6510389+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T02:28:37.6510720+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T02:29:59.9544472+02:00 0HLVBQH1A0OOV:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T02:30:16.3495336+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T02:30:16.3540510+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T02:30:16.3541476+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T02:30:16.3541721+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T02:31:54.4698293+02:00 0HLVBQHUKNRGD:0000002F [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T02:31:54.4771103+02:00 0HLVBQHUKNRGD:0000002F [INF] Admin logged in. (0aeb8da6)
+2020-04-29T02:32:56.1689867+02:00 0HLVBQHUKNRGD:0000006B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: auClerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (b95a1a22)
+2020-04-29T14:05:23.9817109+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:05:23.9859965+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:05:23.9860788+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:05:23.9861004+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:06:46.3257412+02:00 0HLVC6MCIBAJC:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T14:08:04.3286028+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:08:04.3421822+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:08:04.3423103+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:08:04.3423402+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:09:26.4326216+02:00 0HLVC6NS9R1PD:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T14:09:45.1608604+02:00 0HLVC6NS9R1PD:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T14:16:31.7773919+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:16:31.7817850+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:16:31.7818750+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:16:31.7819154+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:17:22.5762689+02:00 0HLVC6SJIQCST:00000021 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T14:17:22.5784725+02:00 0HLVC6SJIQCST:00000021 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T14:18:00.4646429+02:00 0HLVC6SJIQCST:00000045 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: auClerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (b95a1a22)
+2020-04-29T14:32:16.1788363+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:32:16.1845937+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:32:16.1847250+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:32:16.1847571+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:36:29.0765146+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:36:29.0809888+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:36:29.0810906+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:36:29.0811229+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:39:34.9454957+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:39:34.9507804+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:39:34.9510537+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:39:34.9510904+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:46:59.5153558+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:46:59.5211220+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:46:59.5212280+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:46:59.5212674+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:48:21.4825266+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:48:21.4874133+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:48:21.4874976+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:48:21.4875283+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:48:28.4085008+02:00  [ERR] WARNING: This is a simple server for use in testing or debugging Angular applications
+ (c2c9a97f)
+2020-04-29T14:48:28.4090731+02:00  [ERR] locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+ (94ab09b9)
+2020-04-29T14:50:36.7475636+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:50:36.7522492+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:50:36.7523679+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:50:36.7524236+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:58:03.0176759+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T14:58:03.0265480+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T14:58:03.0266503+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T14:58:03.0266954+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T14:58:32.3093944+02:00  [INF] Application is shutting down... (90f52c38)
+2020-04-29T15:05:22.6494056+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T15:05:22.6539024+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T15:05:22.6539978+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T15:05:22.6540415+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T16:47:31.0711305+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T16:47:31.0781370+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T16:47:31.0782677+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T16:47:31.0782949+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T16:48:38.7165490+02:00 0HLVC9GVCER7V:00000021 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T16:48:38.7194786+02:00 0HLVC9GVCER7V:00000021 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T16:49:13.8988203+02:00 0HLVC9GVCER7V:00000033 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Ivedik - 525aa21c-e884-4c4b-9553-663cf8ff734c (1dc22d52)
+2020-04-29T17:06:33.3190446+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:06:33.3249348+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:06:33.3250795+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:06:33.3251308+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:07:19.4800939+02:00 0HLVC9RJTL7QF:00000017 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - b419f0c0-ac0a-41b9-a91d-9d82614977bf (5e32a841)
+2020-04-29T17:08:26.6058823+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:08:26.6143074+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:08:26.6145832+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:08:26.6146237+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:15:06.4087154+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:15:06.4132954+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:15:06.4133846+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:15:06.4134182+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:16:31.6360925+02:00 0HLVCA0CPDC49:00000013 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - 1ff7def8-24ef-495a-b5ce-678d8454b440 (06e921af)
+2020-04-29T17:18:17.4531693+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:18:17.4635628+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:18:17.4640567+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:18:17.4641098+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:26:31.6667970+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:26:31.6763140+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:26:31.6766329+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:26:31.6766790+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:26:48.5329201+02:00  [ERR] ERROR in src/app/Admin/loan-property/loan-property.component.html:53:67 - error TS2339: Property 'deleteLoan' does not exist on type 'LoanPropertyComponent'.
+
+53           <button mat-raised-button class="button-space" (click)="deleteLoan(element.loanId)" color="warn" >Delete</button>
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/Admin/loan-property/loan-property.component.ts:12:16
+    12   templateUrl: './loan-property.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoanPropertyComponent.
+src/app/Admin/loan-property/loan-property.component.html:54:67 - error TS2339: Property 'saveLoanData' does not exist on type 'LoanPropertyComponent'.
+
+54           <button mat-raised-button class="button-space" (click)="saveLoanData(element.reservationId)" color="primary" >Save</button>
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/Admin/loan-property/loan-property.component.ts:12:16
+    12   templateUrl: './loan-property.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoanPropertyComponent.
+
+ (d3cfc99c)
+2020-04-29T17:28:38.0571654+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:28:38.0616901+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:28:38.0617801+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:28:38.0618031+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:28:54.6609087+02:00  [ERR] ERROR in src/app/Admin/loan-property/loan-property.component.html:53:67 - error TS2339: Property 'deleteLoan' does not exist on type 'LoanPropertyComponent'.
+
+53           <button mat-raised-button class="button-space" (click)="deleteLoan(element.loanId)" color="warn" >Delete</button>
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/Admin/loan-property/loan-property.component.ts:12:16
+    12   templateUrl: './loan-property.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoanPropertyComponent.
+src/app/Admin/loan-property/loan-property.component.html:54:67 - error TS2339: Property 'saveLoanData' does not exist on type 'LoanPropertyComponent'.
+
+54           <button mat-raised-button class="button-space" (click)="saveLoanData(element.reservationId)" color="primary" >Save</button>
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/Admin/loan-property/loan-property.component.ts:12:16
+    12   templateUrl: './loan-property.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoanPropertyComponent.
+
+ (d3cfc99c)
+2020-04-29T17:35:25.6214912+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:35:25.6295241+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:35:25.6298676+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:35:25.6299507+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:35:43.8063039+02:00  [ERR] ERROR in src/app/Admin/loan-property/loan-property.component.html:54:67 - error TS2339: Property 'saveLoanData' does not exist on type 'LoanPropertyComponent'.
+
+54           <button mat-raised-button class="button-space" (click)="saveLoanData(element.reservationId)" color="primary" >Save</button>
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/Admin/loan-property/loan-property.component.ts:12:16
+    12   templateUrl: './loan-property.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoanPropertyComponent.
+
+ (9a15ed7a)
+2020-04-29T17:37:50.8843893+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:37:50.8936778+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:37:50.8937942+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:37:50.8938255+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:38:06.9672339+02:00  [ERR] ERROR in src/app/Admin/loan-property/loan-property.component.html:54:67 - error TS2339: Property 'saveLoanData' does not exist on type 'LoanPropertyComponent'.
+
+54           <button mat-raised-button class="button-space" (click)="saveLoanData(element.reservationId)" color="primary" >Save</button>
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/Admin/loan-property/loan-property.component.ts:12:16
+    12   templateUrl: './loan-property.component.html',
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoanPropertyComponent.
+
+ (9a15ed7a)
+2020-04-29T17:39:14.1484313+02:00  [INF] Application is shutting down... (90f52c38)
+2020-04-29T17:41:32.2121949+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T17:41:32.2168978+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T17:41:32.2169880+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T17:41:32.2170122+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T17:42:38.0036361+02:00 0HLVCAF5CJ7V0:00000013 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - fc8d172c-ebed-46a9-82df-ce14640cb25f (6bbd598b)
+2020-04-29T17:44:09.0519670+02:00 0HLVCAF5CJ7V0:00000025 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik - 525aa21c-e884-4c4b-9553-663cf8ff734c to Admin (48ff3fb1)
+2020-04-29T17:44:30.9148152+02:00 0HLVCAF5CJ7V0:0000003F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T17:47:14.4764623+02:00 0HLVCAF5CJ7V0:0000004B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Johnny - 6921e9a2-7948-4034-81da-ca886e2e7b03 (8fc6e25e)
+2020-04-29T17:47:16.1200648+02:00 0HLVCAF5CJ7V0:00000051 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Shampoo - ca2ebef6-e23e-449b-99a0-d7e86d7d34ea (14b51b1f)
+2020-04-29T17:47:17.9500140+02:00 0HLVCAF5CJ7V0:00000057 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Shampoo - cec44167-da82-4281-bb57-5475c4cf40ec (c32b18ef)
+2020-04-29T17:47:19.4491273+02:00 0HLVCAF5CJ7V0:0000005D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Skruetrækker - d5672ef8-6a37-473a-a4a0-8aad49b45d66 (d06a9a84)
+2020-04-29T17:47:20.7994785+02:00 0HLVCAF5CJ7V0:00000063 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hammer - f8f06d70-c962-4a49-b3e3-de7f1fd03a12 (5faedfb7)
+2020-04-29T17:48:59.0299936+02:00 0HLVCAF5CJ7V0:00000067 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Ivedik med sko - 96152269-aa1a-4c39-b8a4-4ec0b70a46ce (5ca3ab3d)
+2020-04-29T17:50:19.6536977+02:00 0HLVCAF5CJ7V0:0000006D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Ivedik ked af det - c9e1fcdc-4e26-4a1e-95e3-4c420aedf46c (ce019aa6)
+2020-04-29T17:53:31.3129403+02:00 0HLVCAF5CJ7V0:0000008D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T17:53:42.5481419+02:00 0HLVCAF5CJ7V0:00000091 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T17:53:59.3718592+02:00 0HLVCAF5CJ7V0:00000095 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T17:54:15.7199214+02:00 0HLVCAF5CJ7V0:00000099 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: au555204 - 9dccff76-9a0e-408c-b153-fc92a9dfac45 (4dcb7673)
+2020-04-29T17:54:19.4687780+02:00 0HLVCAF5CJ7V0:0000009D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: auClerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (b95a1a22)
+2020-04-29T17:56:15.3410488+02:00 0HLVCAF5CJ7V0:000000AB [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: au123456 - 767332db-6139-4fa9-a9de-d1e7abaff320 (9941f825)
+2020-04-29T17:56:32.4661211+02:00 0HLVCAF5CJ7V0:000000AF [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: au123456 - 767332db-6139-4fa9-a9de-d1e7abaff320 (346aa5cc)
+2020-04-29T17:57:57.0729321+02:00 0HLVCAF5CJ7V0:000000B3 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: au123456 - 767332db-6139-4fa9-a9de-d1e7abaff320 (346aa5cc)
+2020-04-29T19:02:41.4751327+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:02:41.4810137+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:02:41.4812237+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T19:02:41.4813112+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:03:25.4061691+02:00 0HLVCBSGGBBRN:00000021 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T19:03:25.4088788+02:00 0HLVCBSGGBBRN:00000021 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T19:03:52.9868721+02:00 0HLVCBSGGBBRN:00000043 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: auClerk - bf6ed404-afa0-48fe-8ca7-9786c7a34d52 (b95a1a22)
+2020-04-29T19:03:59.3683122+02:00 0HLVCBSGGBBRN:00000047 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T19:04:07.0619748+02:00 0HLVCBSGGBBRN:0000004B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:04:18.4805858+02:00 0HLVCBSGGBBRN:0000004F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik med sko - 96152269-aa1a-4c39-b8a4-4ec0b70a46ce to auClerk (0d96ee47)
+2020-04-29T19:04:24.1721055+02:00 0HLVCBSGGBBRN:0000005D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:04:34.8803117+02:00 0HLVCBSGGBBRN:00000069 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:04:54.3173108+02:00 0HLVCBSGGBBRN:0000006F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:05:51.7416948+02:00 0HLVCBSGGBBRN:00000075 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:06:10.0635976+02:00 0HLVCBSGGBBRN:00000079 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: ee07e8fc-9f60-46f3-b7e2-0ee72927e0b8 (de5683e1)
+2020-04-29T19:06:20.5370618+02:00 0HLVCBSGGBBRN:00000087 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:06:37.8845154+02:00 0HLVCBSGGBBRN:00000091 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: ee07e8fc-9f60-46f3-b7e2-0ee72927e0b8 (de5683e1)
+2020-04-29T19:06:44.0012626+02:00 0HLVCBSGGBBRN:0000009F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:07:33.2479242+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:07:33.2523010+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:07:33.2524055+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T19:07:33.2524394+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:08:11.5836068+02:00 0HLVCBV7HHO9V:00000013 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:08:33.6976643+02:00 0HLVCBV7HHO9V:00000017 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 52cd62ac-4072-4494-b034-5ef74f82e431 (e642292a)
+2020-04-29T19:08:39.8841328+02:00 0HLVCBV7HHO9V:00000025 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:10:00.2008965+02:00 0HLVCBV7HHO9V:0000002F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 52cd62ac-4072-4494-b034-5ef74f82e431 (e642292a)
+2020-04-29T19:10:15.0613738+02:00 0HLVCBV7HHO9V:0000003D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:10:28.6040137+02:00 0HLVCBV7HHO9V:00000049 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:12:27.2237960+02:00 0HLVCBV7HHO9V:0000004D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 52cd62ac-4072-4494-b034-5ef74f82e431 (e642292a)
+2020-04-29T19:12:37.1990222+02:00 0HLVCBV7HHO9V:0000005B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:12:43.4520791+02:00 0HLVCBV7HHO9V:00000067 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 9cbfd42b-0456-4183-9228-a21a9a0330e2 (a9393e1b)
+2020-04-29T19:12:43.4862297+02:00 0HLVCBV7HHO9V:00000069 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:12:47.5732819+02:00 0HLVCBV7HHO9V:0000006F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 52cd62ac-4072-4494-b034-5ef74f82e431 (2d5e480c)
+2020-04-29T19:12:47.6163285+02:00 0HLVCBV7HHO9V:00000071 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:12:51.7221944+02:00 0HLVCBV7HHO9V:00000075 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik med sko - 96152269-aa1a-4c39-b8a4-4ec0b70a46ce to Admin (a614b6e9)
+2020-04-29T19:12:58.2021359+02:00 0HLVCBV7HHO9V:00000083 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:13:14.9514513+02:00 0HLVCBV7HHO9V:0000008D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 1937d2a4-af52-4651-875d-4ffbf43db741 (9af4de51)
+2020-04-29T19:13:21.3512579+02:00 0HLVCBV7HHO9V:0000009B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:14:37.5720968+02:00 0HLVCBV7HHO9V:000000B1 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:14:48.1937193+02:00 0HLVCBV7HHO9V:000000B9 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 1937d2a4-af52-4651-875d-4ffbf43db741 (9af4de51)
+2020-04-29T19:14:54.0064689+02:00 0HLVCBV7HHO9V:000000C7 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:15:32.8160683+02:00 0HLVCBV7HHO9V:000000E7 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:26:31.3489030+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:26:31.3732907+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:26:31.3734033+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T19:26:31.3734278+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:26:44.7891387+02:00 0HLVCC9QJ8PUF:00000011 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T19:26:44.7926715+02:00 0HLVCC9QJ8PUF:00000011 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T19:27:00.3309792+02:00 0HLVCC9QJ8PUF:0000002D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:27:03.6923557+02:00 0HLVCC9QJ8PUF:00000033 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:27:05.4423913+02:00 0HLVCC9QJ8PUF:00000039 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:27:07.1202883+02:00 0HLVCC9QJ8PUF:0000003F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: au555204 (b83f623b)
+2020-04-29T19:27:11.5094594+02:00 0HLVCC9QJ8PUF:00000045 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:27:14.6693192+02:00 0HLVCC9QJ8PUF:0000004B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:27:33.4525648+02:00 0HLVCC9QJ8PUF:00000055 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:27:36.8597563+02:00 0HLVCC9QJ8PUF:0000005B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: ee07e8fc-9f60-46f3-b7e2-0ee72927e0b8 (50a6485f)
+2020-04-29T19:27:36.9017329+02:00 0HLVCC9QJ8PUF:0000005D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:27:40.0432505+02:00 0HLVCC9QJ8PUF:00000061 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik med sko - 96152269-aa1a-4c39-b8a4-4ec0b70a46ce to auClerk (0d96ee47)
+2020-04-29T19:27:42.4673764+02:00 0HLVCC9QJ8PUF:00000067 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:27:55.5490376+02:00 0HLVCC9QJ8PUF:0000006D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:27:57.1534102+02:00 0HLVCC9QJ8PUF:00000073 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:28:06.5944273+02:00 0HLVCC9QJ8PUF:0000007F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:28:25.6506464+02:00 0HLVCC9QJ8PUF:0000008B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:28:37.6032734+02:00 0HLVCC9QJ8PUF:00000095 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:28:44.2505510+02:00 0HLVCC9QJ8PUF:0000009B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:28:45.6023061+02:00 0HLVCC9QJ8PUF:000000A1 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:28:58.8304296+02:00 0HLVCC9QJ8PUF:000000A7 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:29:00.4523301+02:00 0HLVCC9QJ8PUF:000000AD [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:32:11.8213453+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:32:11.8273248+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:32:11.8274454+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T19:32:11.8275090+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:32:24.9001402+02:00 0HLVCCD037EEC:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:33:14.4119964+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:33:14.4308156+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:33:14.4309495+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T19:33:14.4309809+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:33:28.1420371+02:00 0HLVCCDIO7UI0:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:34:05.3494470+02:00 0HLVCCDIO7UI0:00000015 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:35:02.8444286+02:00 0HLVCCDIO7UI0:0000002F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:35:51.7740255+02:00 0HLVCCDIO7UI0:00000035 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:35:56.6033386+02:00 0HLVCCDIO7UI0:0000003B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:39:30.5632068+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:39:30.5673495+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:39:30.5674430+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T19:39:30.5674687+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:39:42.5248293+02:00 0HLVCCH2RJ5BA:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:39:58.8854607+02:00 0HLVCCH2RJ5BA:0000000B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 1937d2a4-af52-4651-875d-4ffbf43db741 (9af4de51)
+2020-04-29T19:40:01.7131422+02:00 0HLVCCH2RJ5BA:00000011 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:02.8131756+02:00 0HLVCCH2RJ5BA:00000019 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:03.4686904+02:00 0HLVCCH2RJ5BA:00000021 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:04.0652037+02:00 0HLVCCH2RJ5BA:00000029 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:04.7110535+02:00 0HLVCCH2RJ5BA:00000033 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:05.2858080+02:00 0HLVCCH2RJ5BA:0000003B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:05.7972697+02:00 0HLVCCH2RJ5BA:00000043 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:40:22.7921142+02:00 0HLVCCH2RJ5BA:00000049 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 1937d2a4-af52-4651-875d-4ffbf43db741 (9af4de51)
+2020-04-29T19:41:22.4698220+02:00 0HLVCCH2RJ5BA:0000005B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:41:33.5129911+02:00 0HLVCCH2RJ5BA:0000006F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:41:40.0033839+02:00 0HLVCCH2RJ5BA:00000073 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:41:42.6933304+02:00 0HLVCCH2RJ5BA:00000079 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:41:54.4686154+02:00 0HLVCCH2RJ5BA:0000007F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:41:56.4438218+02:00 0HLVCCH2RJ5BA:00000085 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:42:03.4860094+02:00 0HLVCCH2RJ5BA:0000008B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: 98b1ad13-dadf-4845-a6c6-666c7b83dd63 (26bb6df9)
+2020-04-29T19:42:04.3936185+02:00 0HLVCCH2RJ5BA:0000008F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: auClerk (458cf0c5)
+2020-04-29T19:42:46.1454383+02:00 0HLVCCH2RJ5BA:000000A1 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: au123456 (4897f410)
+2020-04-29T19:44:34.3526996+02:00 0HLVCCH2RJ5BA:000000A5 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Ivedik Boss - 1651acd6-4348-40ab-bc8d-34a277ccc960 (ea392b6e)
+2020-04-29T19:47:33.2132655+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T19:47:33.2174935+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T19:47:33.2175788+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T19:47:33.2176010+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T19:48:15.7074103+02:00 0HLVCCLIONHBC:00000005 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T19:48:15.7095560+02:00 0HLVCCLIONHBC:00000005 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T19:49:40.2320658+02:00 0HLVCCLIONHBC:00000011 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - 385211de-6e44-481c-8b77-6d9a4a31362e (315953a2)
+2020-04-29T19:50:09.9736129+02:00 0HLVCCLIONHBC:0000001B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hammer - 0e38d466-0758-4048-8216-578ae12e4a29 (07ed1c14)
+2020-04-29T19:50:11.4784908+02:00 0HLVCCLIONHBC:00000021 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - b419f0c0-ac0a-41b9-a91d-9d82614977bf (333950e3)
+2020-04-29T19:50:12.7327654+02:00 0HLVCCLIONHBC:00000027 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - fc8d172c-ebed-46a9-82df-ce14640cb25f (2a668af2)
+2020-04-29T19:50:13.9501381+02:00 0HLVCCLIONHBC:0000002D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - 385211de-6e44-481c-8b77-6d9a4a31362e (57840e79)
+2020-04-29T19:50:18.9918672+02:00 0HLVCCLIONHBC:00000033 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - 1ff7def8-24ef-495a-b5ce-678d8454b440 (d44bc629)
+2020-04-29T19:50:21.8524381+02:00 0HLVCCLIONHBC:00000039 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - f8afc287-5d29-4888-b6d8-087d1ef193cb (03a2d37d)
+2020-04-29T19:51:31.9265874+02:00 0HLVCCLIONHBC:00000047 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: Ivedik - 525aa21c-e884-4c4b-9553-663cf8ff734c (627236c6)
+2020-04-29T19:51:59.4148112+02:00 0HLVCCLIONHBC:0000004D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T19:52:15.4466351+02:00 0HLVCCLIONHBC:00000051 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 1937d2a4-af52-4651-875d-4ffbf43db741 (e56edee3)
+2020-04-29T19:52:15.5053132+02:00 0HLVCCLIONHBC:00000053 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T19:54:27.6861305+02:00 0HLVCCLIONHBC:00000059 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:54:39.3647431+02:00 0HLVCCLIONHBC:0000005D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik Boss - 1651acd6-4348-40ab-bc8d-34a277ccc960 to Admin (3c660983)
+2020-04-29T19:54:42.5435752+02:00 0HLVCCLIONHBC:00000063 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T19:55:24.7546375+02:00 0HLVCCLIONHBC:0000006B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T20:04:23.1977029+02:00 0HLVCCLIONHBC:00000079 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T20:11:39.7101985+02:00 0HLVCCLIONHBC:0000007F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T20:12:00.8827318+02:00 0HLVCCLIONHBC:00000083 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T20:33:23.2977189+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T20:33:23.3048527+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T20:33:23.3049491+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T20:33:23.3049705+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T20:33:37.6680700+02:00 0HLVCDF696K1Q:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T20:34:39.0176059+02:00 0HLVCDF696K1Q:0000000B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik - 525aa21c-e884-4c4b-9553-663cf8ff734c to Admin (48ff3fb1)
+2020-04-29T20:34:39.8656939+02:00 0HLVCDF696K1Q:0000000D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik med sko - 96152269-aa1a-4c39-b8a4-4ec0b70a46ce to Admin (a614b6e9)
+2020-04-29T20:34:41.1324532+02:00 0HLVCDF696K1Q:0000000F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Ivedik ked af det - c9e1fcdc-4e26-4a1e-95e3-4c420aedf46c to Admin (5930f06d)
+2020-04-29T20:34:43.3615846+02:00 0HLVCDF696K1Q:00000013 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T20:37:49.3718732+02:00 0HLVCDF696K1Q:0000001B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T20:37:53.9271103+02:00 0HLVCDF696K1Q:0000001F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - f8afc287-5d29-4888-b6d8-087d1ef193cb (798c855d)
+2020-04-29T20:37:53.9849954+02:00 0HLVCDF696K1Q:00000021 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T20:38:44.0602043+02:00 0HLVCDF696K1Q:00000025 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed data for: Admin (d0e9d8c2)
+2020-04-29T20:53:56.7210807+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T20:53:56.7274911+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T20:53:56.7277318+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T20:53:56.7277700+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T20:54:06.4474567+02:00 0HLVCDQLV3T8J:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - a308e63d-b9d8-49af-ada6-46635b375e44 (c953365c)
+2020-04-29T20:54:06.9670335+02:00 0HLVCDQLV3T8J:0000000B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik - 52b82ebd-3b09-4d7f-84c7-3c36289564e0 (61b3bda1)
+2020-04-29T20:54:18.4340192+02:00 0HLVCDQLV3T8J:00000019 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik Boss - 852cebfb-3a97-4ca9-97b7-3b6f1f5e12c9 (d0e03a67)
+2020-04-29T20:54:21.1494161+02:00 0HLVCDQLV3T8J:0000001F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Ivedik Boss - 9e4fe70e-da2e-4acd-9d49-c550cba6fa7a (5e9a624c)
+2020-04-29T20:54:52.6092460+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T20:54:52.6136325+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T20:54:52.6137116+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T20:54:52.6137411+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T20:56:35.0006922+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T20:56:35.0050310+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T20:56:35.0051171+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T20:56:35.0051901+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T20:56:46.7598725+02:00 0HLVCDS50TG77:00000001 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:27:55.9672012+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T21:27:55.9736949+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T21:27:55.9738379+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T21:27:55.9738915+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T21:29:45.1606486+02:00 0HLVCEDLK51CN:00000027 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:29:45.1753103+02:00 0HLVCEDLK51CP:00000001 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:29:45.2564445+02:00 0HLVCEDLK51CP:00000007 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:29:52.8136928+02:00 0HLVCEDLK51CP:00000019 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:32:22.9038569+02:00 0HLVCEDLK51CP:00000029 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:35:41.4264313+02:00 0HLVCEDLK51CP:0000003D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: Big Boss - 1651acd6-4348-40ab-bc8d-34a277ccc960 (a629d1fb)
+2020-04-29T21:36:07.5084962+02:00 0HLVCEDLK51CP:00000057 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: Aerobics - 525aa21c-e884-4c4b-9553-663cf8ff734c (68e0ab00)
+2020-04-29T21:36:23.4506616+02:00 0HLVCEDLK51CP:0000005D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: Nye Sko - 96152269-aa1a-4c39-b8a4-4ec0b70a46ce (e4a7940e)
+2020-04-29T21:36:39.2855586+02:00 0HLVCEDLK51CP:00000063 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e updated: Hos lægen - c9e1fcdc-4e26-4a1e-95e3-4c420aedf46c (c19f8a46)
+2020-04-29T21:40:04.7849443+02:00 0HLVCEDLK51CP:00000067 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: I Bussen - 76a40b2f-ffba-40f5-b1bc-e5b2092ed5c5 (e6ad7162)
+2020-04-29T21:40:51.5275465+02:00 0HLVCEDLK51CP:00000073 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - 52b82ebd-3b09-4d7f-84c7-3c36289564e0 (c08865b7)
+2020-04-29T21:40:52.7832318+02:00 0HLVCEDLK51CP:00000079 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik Boss - 852cebfb-3a97-4ca9-97b7-3b6f1f5e12c9 (783ee445)
+2020-04-29T21:40:54.2840641+02:00 0HLVCEDLK51CP:0000007F [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik Boss - 9e4fe70e-da2e-4acd-9d49-c550cba6fa7a (3ea7f471)
+2020-04-29T21:40:55.4783216+02:00 0HLVCEDLK51CP:00000085 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Ivedik - a308e63d-b9d8-49af-ada6-46635b375e44 (89aee275)
+2020-04-29T21:41:02.4379058+02:00 0HLVCEDLK51CP:0000008D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:41:06.0457551+02:00 0HLVCEDLK51CP:00000093 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 522a2943-b7e2-45e6-9a37-964ee81da7d5 (968cbf4d)
+2020-04-29T21:41:06.0988754+02:00 0HLVCEDLK51CP:00000095 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:41:07.3826080+02:00 0HLVCEDLK51CP:0000009B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 534e1f11-d253-4a17-9e68-b3d3334eefd5 (56e0b35e)
+2020-04-29T21:41:07.4152035+02:00 0HLVCEDLK51CP:0000009D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:41:09.3857735+02:00 0HLVCEDLK51CP:000000A3 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: 90dc3a81-2285-415e-ac4a-b6932434cb1c (a0f368f3)
+2020-04-29T21:41:09.4400834+02:00 0HLVCEDLK51CP:000000A5 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:41:11.0346792+02:00 0HLVCEDLK51CP:000000AB [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: d0a17517-903e-45fe-8563-eef62b282e57 (bb8b849f)
+2020-04-29T21:41:11.0727147+02:00 0HLVCEDLK51CP:000000AD [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:41:14.2278707+02:00 0HLVCEDLK51CP:000000B3 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Big Boss - 84b8be1a-c5c6-4945-9824-6c75e93a7203 (a7e9c7e1)
+2020-04-29T21:41:16.6349155+02:00 0HLVCEDLK51CP:000000B9 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Aerobics - c8bb4977-07b4-4e6b-90c7-ec2bb5d7f6fb (0da78ed0)
+2020-04-29T21:41:18.2453504+02:00 0HLVCEDLK51CP:000000BF [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: I Bussen - d4469b41-b620-405a-a5d5-336d8b0b3201 (fc943dd9)
+2020-04-29T21:41:19.9373301+02:00 0HLVCEDLK51CP:000000C5 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Nye Sko - 99ef265d-b1cf-4e9e-9248-3675a773bc2c (b5cfe3ec)
+2020-04-29T21:41:21.5670498+02:00 0HLVCEDLK51CP:000000CB [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e reserved: Hos lægen - c6b5feaf-22a6-4614-93cc-2a1e6120aac1 (896b8e0c)
+2020-04-29T21:42:29.8749560+02:00 0HLVCEDLK51CP:000000DB [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:42:47.5121015+02:00 0HLVCEDLK51CP:000000DF [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: I Bussen - 76a40b2f-ffba-40f5-b1bc-e5b2092ed5c5 to Admin (3a4b48c0)
+2020-04-29T21:42:49.5963052+02:00 0HLVCEDLK51CP:000000E1 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e loaned: Aerobics - 525aa21c-e884-4c4b-9553-663cf8ff734c to Admin (9d415b30)
+2020-04-29T21:43:00.3910993+02:00 0HLVCEDLK51CP:000000E5 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:43:49.3974078+02:00 0HLVCEDLK51CP:000000F1 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T21:47:38.4790575+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T21:47:38.4837421+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T21:47:38.4838374+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T21:47:38.4838657+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T21:49:47.4982559+02:00 0HLVCEOM1N40Q:00000023 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T21:50:08.0371448+02:00 0HLVCEOM1N40Q:00000025 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T21:50:13.6828882+02:00 0HLVCEOM1N40Q:00000031 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T21:50:44.8144031+02:00 0HLVCEOM1N40Q:00000033 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.InteropServices.COMException (0x8007203A): Serveren fungerer ikke.
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at Server.Utilities.LdapUtilities.IsAuthenticatedLdap(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 30
+   at Server.Utilities.LdapUtilities.IsAuthenticated(String auid, String password) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Utilities\LdapUtilities.cs:line 15
+   at Server.Controllers.LoginController.Login(Login data) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\LoginController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T21:58:53.0569031+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T21:58:53.0634095+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T21:58:53.0634980+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T21:58:53.0635221+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T21:59:39.2183450+02:00 0HLVCEUV61MHM:00000011 [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T21:59:39.2206452+02:00 0HLVCEUV61MHM:00000011 [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:01:01.0836184+02:00 0HLVCEUV61MHM:0000004B [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T22:01:01.0838027+02:00 0HLVCEUV61MHM:0000004B [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:03:35.4738973+02:00 0HLVCEUV61MHM:000000A5 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T22:03:35.4742620+02:00 0HLVCEUV61MHM:000000A5 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T22:03:47.1142356+02:00 0HLVCEUV61MHM:000000C3 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T22:04:06.5297831+02:00 0HLVCEUV61MHM:000000C9 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)
+2020-04-29T22:04:35.7429602+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T22:04:35.7497088+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T22:04:35.7498597+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T22:04:35.7498840+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T22:05:23.9014717+02:00 0HLVCF25ATRA5:00000021 [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T22:05:23.9035091+02:00 0HLVCF25ATRA5:00000021 [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:07:29.6069218+02:00 0HLVCF25ATRA5:0000005F [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T22:07:29.6071134+02:00 0HLVCF25ATRA5:0000005F [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:09:03.5153606+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T22:09:03.5195852+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T22:09:03.5198711+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T22:09:03.5199003+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T22:09:44.8051402+02:00 0HLVCF4KVJOH3:00000021 [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T22:09:44.8051399+02:00 0HLVCF4KVJOH3:00000023 [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T22:09:44.8077121+02:00 0HLVCF4KVJOH3:00000021 [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:09:44.8077120+02:00 0HLVCF4KVJOH3:00000023 [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:10:01.2864876+02:00 0HLVCF4KVJOH3:00000039 [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (3479df13)
+2020-04-29T22:10:24.8507780+02:00 0HLVCF4KVJOH3:0000005D [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (3479df13)
+2020-04-29T22:11:50.6172677+02:00 0HLVCF4KVJOH3:00000065 [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc deleted: Big Boss - 84b8be1a-c5c6-4945-9824-6c75e93a7203 (6359d910)
+2020-04-29T22:11:56.0767948+02:00 0HLVCF4KVJOH3:00000067 [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (3479df13)
+2020-04-29T22:12:15.1394096+02:00 0HLVCF4KVJOH3:0000006B [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc loaned: Aerobics - 525aa21c-e884-4c4b-9553-663cf8ff734c to Admin (6e299616)
+2020-04-29T22:12:29.2484989+02:00 0HLVCF4KVJOH3:00000079 [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (3479df13)
+2020-04-29T22:16:07.8660464+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T22:16:07.8709065+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T22:16:07.8709923+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T22:16:07.8710197+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T22:17:25.3663825+02:00 0HLVCF8JEKQK2:00000021 [INF] Generated token for: Clerk - 615d5cce-cce2-4da7-b1f7-41923cfb6fdc (178dc172)
+2020-04-29T22:17:25.3695004+02:00 0HLVCF8JEKQK2:00000021 [INF] Clerk logged in. (a167b05a)
+2020-04-29T22:18:05.7734661+02:00 0HLVCF8JEKQK2:00000037 [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (3479df13)
+2020-04-29T22:30:24.9328296+02:00 0HLVCF8JEKQK2:0000004F [INF] 615d5cce-cce2-4da7-b1f7-41923cfb6fdc viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (3479df13)
+2020-04-29T22:34:46.9755251+02:00 0HLVCF8JEKQK2:00000089 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T22:34:46.9756659+02:00 0HLVCF8JEKQK2:00000089 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T22:35:16.6779702+02:00 0HLVCF8JEKQK2:000000A5 [ERR] Failed executing DbCommand ("10"ms) [Parameters=["@p0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Components]
+WHERE [ComponentId] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+2020-04-29T22:35:16.7699397+02:00 0HLVCF8JEKQK2:000000A5 [ERR] An exception occurred in the database while saving changes for context type '"Server.Data.EmbeddedStockContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint \"FK_Histories_Components_ComponentId\". The conflict occurred in database \"EmbeddedStockServer\", table \"dbo.Histories\", column 'ComponentId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69eaa3f0-4772-4e49-8848-fa57b36060f4
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Histories_Components_ComponentId". The conflict occurred in database "EmbeddedStockServer", table "dbo.Histories", column 'ComponentId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69eaa3f0-4772-4e49-8848-fa57b36060f4
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Server.Controllers.ComponentsController.Delete(String id) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\ComponentsController.cs:line 100
+2020-04-29T22:35:16.8978704+02:00 0HLVCF8JEKQK2:000000A5 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Histories_Components_ComponentId". The conflict occurred in database "EmbeddedStockServer", table "dbo.Histories", column 'ComponentId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:69eaa3f0-4772-4e49-8848-fa57b36060f4
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Server.Controllers.ComponentsController.Delete(String id) in C:\Users\Bekir Karaca\Desktop\BAC\Server\Server\Controllers\ComponentsController.cs:line 100
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-29T22:36:57.7380165+02:00  [INF] Application is shutting down... (90f52c38)
+2020-04-29T22:37:42.3109918+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T22:37:42.3161996+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T22:37:42.3163205+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T22:37:42.3163499+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T22:38:58.5527222+02:00 0HLVCFKLABBQT:00000017 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Hos lægen - c9e1fcdc-4e26-4a1e-95e3-4c420aedf46c (f628fe15)
+2020-04-29T22:41:03.4459676+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T22:41:03.4530931+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T22:41:03.4531815+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T22:41:03.4532038+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T22:42:17.0494623+02:00 0HLVCFMH8BT3Q:00000011 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Hos lægen - 6b22231c-39aa-41be-80df-a25264a4a4c6 (82d79953)
+2020-04-29T22:42:38.1093958+02:00 0HLVCFMH8BT3Q:00000019 [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e deleted: Aerobics - 525aa21c-e884-4c4b-9553-663cf8ff734c (8c696933)
+2020-04-29T22:43:16.4092365+02:00 0HLVCFMH8BT3Q:0000001D [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e created: Aerobics - 275fe3e7-0cad-4245-a7f7-f770dcc38acc (c85af08f)
+2020-04-29T22:48:54.6750262+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T22:48:54.6793965+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T22:48:54.6794841+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-04-29T22:48:54.6795066+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T22:51:35.9158038+02:00 0HLVCFQTN1PII:00000043 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T22:51:35.9177066+02:00 0HLVCFQTN1PII:00000043 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T23:03:09.8179987+02:00  [INF] Now listening on: "https://localhost:3000" (d826f4b8)
+2020-04-29T23:03:09.8229094+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-04-29T23:03:09.8230651+02:00  [INF] Hosting environment: "Prod" (c3307c92)
+2020-04-29T23:03:09.8230999+02:00  [INF] Content root path: "C:\Users\Bekir Karaca\Desktop\BAC\Server\Server" (b5d60022)
+2020-04-29T23:03:27.2316895+02:00 0HLVCG2SHE66C:00000011 [INF] Generated token for: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (c5e881bd)
+2020-04-29T23:03:27.2339188+02:00 0HLVCG2SHE66C:00000011 [INF] Admin logged in. (0aeb8da6)
+2020-04-29T23:03:35.8118052+02:00 0HLVCG2SHE66C:0000001B [INF] 1d833a8f-67ad-4e01-9866-b2fc27885f2e viewed: Admin - 1d833a8f-67ad-4e01-9866-b2fc27885f2e (f9869caa)

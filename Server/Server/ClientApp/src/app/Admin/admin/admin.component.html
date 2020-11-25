@@ -1,0 +1,21 @@
+<div class="position">
+  <mat-card-title class="title-position">
+    <div *ngIf="!buttonNameChange">
+      Admin
+    </div>
+    <div *ngIf="buttonNameChange">
+      Clerk
+    </div> 
+  </mat-card-title>
+  <button *ngIf="restVisible" mat-raised-button class="btn-position" color="primary" (click)="goToPostComponent()">Create Component</button>
+  <br />
+  <button *ngIf="restVisible" mat-raised-button class="btn-position" color="primary" (click)="goToDeleteEditComponent()">Delete / Edit Component</button>
+  <br />
+  <button *ngIf="restVisible" mat-raised-button class="btn-position" color="primary" (click)="goToGetUser()">Get User</button>
+  <br />
+  <button *ngIf="restVisible" mat-raised-button class="btn-position" color="primary" (click)="goToCreateUser()">Create User</button>
+  <br />
+  <button *ngIf="loanVisible" mat-raised-button class="btn-loans-position" color="primary" (click)="goToLoans()"> Loans </button>
+  <br />
+  <button *ngIf="restVisible" mat-raised-button class="btn-position" color="primary" (click)="goToCreateCategories()"> Create Categories </button>
+</div>

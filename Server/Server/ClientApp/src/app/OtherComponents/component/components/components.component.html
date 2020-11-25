@@ -1,0 +1,66 @@
+<br>
+<mat-card-title class="title-position">Search for components</mat-card-title>
+
+<form class="search-input-position">
+  
+  <mat-form-field class="filter-position">
+    
+    <mat-label>Filter by Category</mat-label>
+    <mat-select name="categorySelecet" #categorySelecet (selectionChange)="selectedCategory($event)">
+      <mat-option>None</mat-option>
+      <mat-option *ngFor="let category of categories" [value]="category.categoryId">{{category.categoryName}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+
+  <mat-form-field class="search-position">
+    <mat-label>Search a component</mat-label>
+    <!-- Kilder: https://www.youtube.com/watch?v=ZhcYPXLGr_E 
+    Inspritation til at filtre søgefeltet, kommer fra dette link.
+    Når man indtaster en værdi i søgefeltet, så sker der en event, da den kan reducere søgefeltet.-->
+    <input matInput (keyup)="componentFilter($event.target.value)" placeholder="Type a component" hint="Search">
+  </mat-form-field>
+
+</form>
+<!--Kilder: https://material.angular.io/components/table/examples
+Inspiration til at lave en mat-table kommer fra dette link.-->
+<div class="example-container mat-elevation-z8" >
+<table mat-table [dataSource]="dataComponents" class="mat-elevation-z8" >
+
+     <ng-container matColumnDef="componentImage">
+      <th mat-header-cell *matHeaderCellDef > Component Image </th>
+      <td mat-cell *matCellDef="let element">
+
+        <img class = "image-view" [src]="element.imageUrl" alt="Place image title">
+
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="componentName">
+      <th mat-header-cell *matHeaderCellDef> Component Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.componentName}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="componentInfo">
+      <th mat-header-cell *matHeaderCellDef> Component Info </th>
+      <td mat-cell *matCellDef="let element"> {{element.componentInfo}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="componentAvailable">
+      <th mat-header-cell *matHeaderCellDef> Component available </th>
+      <td mat-cell *matCellDef="let element"> {{element.count}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="D/R">
+      <th mat-header-cell *matHeaderCellDef> Detail/Reservation </th>
+      <td mat-cell *matCellDef="let element"> 
+        <button mat-raised-button class="btn button-space" color="primary" (click)="goToDetailComponent(element.componentId)">Details</button>  
+        <button mat-raised-button *ngIf="(element.count > 0);else false" class="btnReserve" (click)= "reserveComponent(element.componentId,element.componentName)" >Reserve</button>  
+      </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

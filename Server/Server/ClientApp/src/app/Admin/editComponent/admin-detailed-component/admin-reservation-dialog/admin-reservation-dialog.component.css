@@ -1,0 +1,13 @@
+.btnReserve {
+  margin-right: 5px;
+  background-color: rgb(16, 187, 16);
+  color: #fff;
+}
+
+.button-space {
+  margin-right: 10px;
+}
+
+.center {
+  justify-content: center;
+}

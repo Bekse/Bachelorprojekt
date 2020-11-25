@@ -1,0 +1,215 @@
+<div class ="position">
+<mat-card-title >Post a component</mat-card-title>
+<div class="center">
+    <form (ngSubmit)="postComponent(Form)" #Form="ngForm">
+      <div class="bottom-space">
+        <br />
+        <mat-form-field class="input-width">
+          <input
+            name="componentName"
+            #componentName="ngModel"
+            required
+            type="text"
+            placeholder="Component Name"
+            matInput
+            ngModel
+          />
+          <mat-hint>Type a unique Component Name</mat-hint>
+        </mat-form-field>
+      </div>
+
+      <!-- Kilder: https://material.angular.io/components/select/examples -->
+
+      <mat-form-field class="category-select-position">
+        <mat-label>Selecet a categories</mat-label>
+        <mat-select name="categoryId" #categoryId="ngModel" [ngModel] required>
+          <mat-option>Select None</mat-option>
+          <mat-option *ngFor="let category of categories" [value]="category.categoryId" required>{{category.categoryName}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+
+      <div class="bottom-space"> 
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="componentInfo"
+            value=" "
+            #componentInfo="ngModel"
+            placeholder="Component Info"
+            ngModel
+
+          />
+          <mat-hint>Type a unique Component Info</mat-hint>
+
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="componentStatus"
+            name="componentStatus"
+            value=" "
+            #componentStatus="ngModel"
+            placeholder="Component Status"
+            ngModel
+
+          />
+          <mat-hint>Type a unique Component Status</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="componentLocation"
+            value=" "
+            #componentLocation="ngModel"
+            placeholder="Component Location"
+            ngModel
+          />
+          <mat-hint>Type a unique Component Location</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="number"
+            name="componentNumber"
+            required
+            value=" "
+            #componentNumber="ngModel"
+            placeholder="Component Number"
+            ngModel
+
+          />
+          <mat-hint>Type a unique component Number</mat-hint>
+
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="number"
+            name="count"
+            required
+            value=" "
+            #count="ngModel"
+            placeholder="Available components"
+            ngModel 
+
+          />
+          <mat-hint>Type a unique amount of available components</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="adminComment"
+            value=" "
+            #adminComment="ngModel"
+            placeholder="Admin Comment"
+            ngModel 
+
+          />
+          <mat-hint>Type a comment</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="datasheet"
+            value=" "
+            #datasheet="ngModel"
+            placeholder="Datasheet"
+            ngModel 
+
+          />
+          <mat-hint>Type a unique datasheet</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="wikiLink"
+            value=" "
+            #wikiLink="ngModel"
+            placeholder="Wiki-Link"
+            ngModel 
+
+          />
+          <mat-hint>Type a unique wiki-link</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="manufacturer"
+            value=" "
+            #manufacturer="ngModel"
+            placeholder="Manufacturer"
+            ngModel 
+
+          />
+          <mat-hint>Type a unique manufacturer</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="serialNumber"
+            value=" "
+            #serialNumber="ngModel"
+            placeholder="Serial-Number"
+            ngModel 
+
+          />
+          <mat-hint>Type a unique Serial-Number</mat-hint>
+        </mat-form-field>
+      </div>
+      <div class="bottom-space">
+        <mat-form-field class="input-width">
+          <input
+            matInput
+            type="text"
+            name="imageUrl"
+            value=" "
+            #imageUrl="ngModel"
+            placeholder="Image-Url"
+            ngModel 
+
+          />
+          <mat-hint>Type a unique Image-Url</mat-hint>
+        </mat-form-field>
+      </div>
+      <br>
+        <button mat-raised-button class="backButton" color="primary" (click)="backToAdminPage()">Back</button>
+
+        <button mat-raised-button class="btn-design" color="primary" type="ngSubmit">Create</button>
+      <br>
+      <br>
+
+    </form>
+  </div>
+
+<br>
+
+
+
+
+</div>

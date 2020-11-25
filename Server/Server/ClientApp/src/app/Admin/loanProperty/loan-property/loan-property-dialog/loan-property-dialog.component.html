@@ -1,0 +1,13 @@
+<div class="center">
+  <p>
+    Will you loan the component <b>{{ data.componentData.componentName }}</b>
+  </p>
+
+  <button mat-raised-button class="btn button-space" color="primary" [mat-dialog-close]="true">
+    No
+  </button>
+
+  <button mat-raised-button class="btnReserve" color="primary" (click)="loanComponent()" [mat-dialog-close]="true">
+    Yes
+  </button>
+</div>

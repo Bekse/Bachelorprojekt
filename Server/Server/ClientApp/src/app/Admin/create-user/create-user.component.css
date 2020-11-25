@@ -1,0 +1,38 @@
+.position{
+    margin: auto;
+    width: 30%;
+    margin-top: 5%;
+    height: 850px;
+    border: 3px solid rgb(75, 126, 236);
+    padding: 10px;
+    text-align: center;
+
+}
+.btn-design{
+    margin-right: 10px;
+    background-color: rgb(16, 187, 16);
+    color: #fff;
+}
+.backButton{
+    margin-right: 10px;;
+  }
+
+
+
+.input-width{
+    width:400px !important;
+
+
+}
+.bottom-space{
+    margin-bottom: 20px;
+
+}
+.role-position{
+    width:400px !important;
+
+}
+.phoneNumber-bottom-space{
+    margin-bottom: 35px;
+
+}

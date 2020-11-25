@@ -1,0 +1,58 @@
+<!-- Kilder:
+     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_example_website
+     https://stockmanager.ase.au.dk/
+    -->
+<body>
+
+    <div class="header">
+      <h1>Embedded Stock</h1>
+      <p>A <b>perfect</b> website created by Mehmetali Duman & Bekir Karaca</p>
+    </div>
+    
+
+    
+    <div class="row">
+      <div class="leftcolumn">
+        <h2>Opening Hours:</h2>
+        <h5>Monday 10:00 - 11:30 <br><br> Friday 10:00 - 11:30 </h5>
+       
+        <p>For more information or questions send a message to: embedded.stock@gmail.com</p>
+        <h3>Register as user</h3>
+        <p>Use your AU-login credential to create a user. These are the same as your mit.au.dk login. All registered users can browse and reserve hardware on this website.<br>
+            It is important that you note your AU-id and your Studie-id correctly! Since these are needed for e-mail communication.<br></p>
+
+        <a *ngIf="!visible" [routerLink]="['/register']">Register here!</a>
+
+      </div>
+      <div class="rightcolumn">
+        <h2>What is Embedded Stock?</h2>
+        <h5>Embedded Stock is an initiative to create a central storage space for all electronic hardware at the Aarhus University School of Engineering – Katrinebjerg.
+        </h5>
+        <h2>How to make a loan:</h2>
+        <p>If you find hardware you wish to borrow you simply press the reserve button.<br>
+            <br>
+            Pick up your reservation within opening hours in the Embedded Stock store. It is located in room 017A in the Shannon building at Katrinebjerg.<br>
+            <br>
+            Hardware can NOT be picked up at the electronic workshop.<br>
+        </p>
+
+            <br>
+            <h2>How to return hardware:</h2>
+            <p>All hardware needs to be returned to the Embedded Stock store, when the semester ends. This means either the end of January or June.<br>
+                <br>
+                Hardware may be modified with reasonable connectors and should be ready for use by the next loaner, when it is returned to Embedded Stock.<br>
+                This means, hardware can NOT be soldered onto Vero-boards, or connected to other hardware, in any way on return.<br>
+                <br>
+                Please have your AU-id or Studie-id ready when you are at the store.<br>
+                <br>
+                Hardware can NOT be returned at the electronic workshop.</p>
+      </div>
+      
+    </div>
+    
+    
+    </body>
+
+
+
+<router-outlet></router-outlet>

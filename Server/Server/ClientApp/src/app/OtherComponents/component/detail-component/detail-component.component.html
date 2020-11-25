@@ -1,0 +1,59 @@
+<mat-card-title>Component details</mat-card-title>
+<br />
+
+<button mat-raised-button color="primary" (click)="goToComponents()">
+  Back
+</button>
+
+<!-- Kilder: https://www.w3schools.com/angular/tryit.asp?filename=try_ng_tables_even
+    Har fået inspiration til at lave en tabel der viser detail af componenten.
+-->
+
+<table class="mat-elevation-z8">
+  <tr>
+    <td class="td-position">Components available:</td>
+    <td>{{ componentData.count }}</td>
+  </tr>
+  <tr style="background-color: #f1f1f1;">
+    <td class="td-position">Component name:</td>
+    <td>{{ componentData.componentName }}</td>
+  </tr>
+  <tr>
+    <td>Category</td>
+    <td>{{ categoryData.categoryName }}</td>
+  </tr>
+  <tr style="background-color: #f1f1f1;">
+    <td>Location</td>
+    <td>{{ componentData.componentLocation }}</td>
+  </tr>
+  <tr>
+    <td>Info</td>
+    <td>{{ componentData.componentInfo }}</td>
+  </tr>
+  <tr style="background-color: #f1f1f1;">
+    <td>Link to datasheet</td>
+    <td>{{ componentData.datasheet }}</td>
+  </tr>
+  <tr>
+    <td>Manufacturer</td>
+    <td>{{ componentData.manufacturer }}</td>
+  </tr>
+  <tr style="background-color: #f1f1f1;">
+    <td>WikiLink</td>
+    <td>{{ componentData.wikiLink }}</td>
+  </tr>
+  <tr>
+    <td>Admin comments</td>
+    <td>{{ componentData.adminComment }}</td>
+  </tr>
+  <tr>
+    <td>Image</td>
+    <td>
+      <img
+        class="image-view"
+        [src]="componentData.imageUrl"
+        alt="Place image title"
+      />
+    </td>
+  </tr>
+</table>

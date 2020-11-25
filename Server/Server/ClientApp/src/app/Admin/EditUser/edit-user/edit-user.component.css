@@ -1,0 +1,48 @@
+.backButtonPosition{
+    left: -300px;
+  }
+
+mat-card-title{
+    position: relative;
+    left: 17%;
+    font-size: 30px; 
+   }
+.save-button-position{
+  left: 150px;
+
+}
+.delete-button-position{
+  left: 170px;
+
+}
+.table-position{
+  margin-top: 60px;
+
+}
+.center-position{
+
+   width:500px;
+   margin-left: 150px;
+
+}
+.user-data-table-position{
+  margin-bottom: 80px;
+
+}
+table {
+  width: 100%;
+  
+}
+
+/* Kilder: https://www.granneman.com/webdev/coding/css/centertables
+Denne link er blivet brugt til at ændre positionen på tabellen*/
+.example-container {
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  width: 300%;
+  margin-left:auto; 
+  margin-right:auto;
+  overflow: auto;
+}
+

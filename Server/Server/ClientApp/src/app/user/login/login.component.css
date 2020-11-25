@@ -1,0 +1,21 @@
+/*kilder https://www.techiediaries.com/css-centering/ 
+         https://www.w3schools.com/css/css_align.asp*/
+.center {
+  margin: auto;
+  width: 25%;
+  border: 0px solid #ffffff;
+  padding: 70px;
+}
+/*kilder https://material.angular.io/components/input/overview*/
+.input-width {
+  width: 80%;
+}
+
+
+.serverError-position{
+  margin-left: 700px;
+  font-size: 150%;
+  color: rgb(255, 0, 0);
+  transition-duration: 5s;
+  transition-delay: 2s;
+}

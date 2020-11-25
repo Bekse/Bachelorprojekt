@@ -1,0 +1,34 @@
+<!-- Kilder: https://www.youtube.com/watch?v=ADEZTrIxj1k&t=196s
+     Kilder: https://material.angular.io/components/menu/overview
+     Kilder: https://www.angularjswiki.com/angular/understanding-angulars-ngif-else-then-with-examples/
+-->
+<mat-toolbar color="primary">
+  <img src="../../assets/logo.png" width="40" height="40">
+  <span routerLink="" class="button-title-space">
+    Welcome to Embedded Stock
+  </span>
+
+  <a *ngIf="visible" mat-button class="btn button-space" routerLink="components">Components</a>
+  <button *ngIf="visible" mat-button [matMenuTriggerFor]="menu">My loans</button>
+  <mat-menu #menu="matMenu" class="customize">
+    <button mat-menu-item routerLink="list-reservation">List reservations</button>
+    <button mat-menu-item routerLink="loans">List loans</button>
+  </mat-menu>
+
+  <div class="navbar-right-side"></div>
+  <a *ngIf="adminVisible" mat-button class="btn button-space" routerLink="admin">
+    <div *ngIf="!buttonNameChange">
+      Admin
+    </div>
+    <div *ngIf="buttonNameChange">
+      Clerk
+    </div>
+  </a>
+  <a mat-button routerLink="about" class="btn button-space" routerLink="about">About</a>
+  <a *ngIf="visible" mat-button class="btn button-space" routerLink="profil">Profile</a>
+  <a *ngIf="!visible" mat-raised-button color="warn" class="btn button-space" routerLink="login">Login</a>
+  <a *ngIf="!visible" mat-raised-button color="basic" class="btn button-space" routerLink="register">Register</a>
+  <a *ngIf="visible" mat-raised-button color="warn" class="btn button-space" (click)="onLogout()"
+    routerLink="">Logout</a>
+
+</mat-toolbar>

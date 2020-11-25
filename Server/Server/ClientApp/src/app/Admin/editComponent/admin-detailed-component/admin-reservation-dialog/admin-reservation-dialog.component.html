@@ -1,0 +1,14 @@
+<div class="center">
+  <p>
+    Will you reserve the component <b>{{ data?.componentName }}</b>
+  </p>
+
+  <button mat-raised-button class="btn button-space" color="primary" [mat-dialog-close]="true">
+    No
+  </button>
+
+  <button mat-raised-button class="btnReserve" color="primary" (click)="reserveComponent(data.componentId)"
+    [mat-dialog-close]="true">
+    Yes
+  </button>
+</div>

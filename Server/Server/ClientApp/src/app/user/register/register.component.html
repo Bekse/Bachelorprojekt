@@ -1,0 +1,86 @@
+<!-- 
+    Her under er der gjort brug af library material design.
+    Til at får bedre design på hjemmesiden.
+    
+    På den link, som ses under her, er der taget inspiration til at gør brug af de forskellige komponenter.
+    Kilder: https://material.angular.io/components/categories
+ -->
+<div class="center">
+  <form (ngSubmit)="registerUser(Form)" #Form="ngForm">
+    <div>
+      <mat-card-title>Please Register</mat-card-title>
+      <br />
+      <br />
+      <mat-form-field class="input-width">
+        <input name="AuId" #auid="ngModel" type="text" placeholder="AuId" matInput required ngModel size="4" />
+        <mat-hint>Type a unique AuId</mat-hint>
+        <mat-error *ngIf="auid.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="input-width">
+        <input matInput type="password" name="Password" required value=" " #password="ngModel" placeholder="Password"
+          ngModel />
+        <mat-hint>Type a unique Password</mat-hint>
+        <mat-error *ngIf="password.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field class="input-width">
+        <input matInput type="number" name="StudentNumber" required value=" " #student_number="ngModel"
+          placeholder="Student number" ngModel />
+        <mat-hint>Type a unique Student number</mat-hint>
+        <mat-error *ngIf="student_number.invalid">{{
+          getErrorMessage()
+        }}</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field class="input-width">
+        <input matInput type="email" name="Email" required value=" " #email="ngModel" placeholder="email@example.com"
+          ngModel />
+        <mat-hint>Type a unique Email</mat-hint>
+        <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field class="input-width">
+        <input matInput type="number" name="PhoneNumber" required value=" " #phone="ngModel" placeholder="Phone"
+          ngModel />
+        <mat-hint>Type a unique Phone</mat-hint>
+        <mat-error *ngIf="phone.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field class="input-width">
+        <input matInput type="text" name="FirstName" required value=" " #first_name="ngModel" placeholder="First Name"
+          ngModel />
+        <mat-hint>Type a unique First Name</mat-hint>
+        <mat-error *ngIf="first_name.invalid">{{
+          getErrorMessage()
+        }}</mat-error>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field class="input-width">
+        <input matInput type="text" name="LastName" required value=" " #last_name="ngModel" placeholder="Last Name"
+          ngModel />
+        <mat-hint>Type a unique Last Name</mat-hint>
+        <mat-error *ngIf="last_name.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+    </div>
+    <br />
+    <button mat-raised-button color="primary" type="submit">Register</button>
+    <br />
+    <br />
+    <button mat-raised-button color="accent" type="button" (click)="goToLogin()" value="Login">
+      Go back to login
+    </button>
+  </form>
+</div>
+<div class="serverError-position" *ngIf="serverError">
+  <mat-error>
+    {{serverError}}
+  </mat-error>
+</div>
